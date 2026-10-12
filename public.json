@@ -1,406 +1,406 @@
 {
- "generated": "2026-10-12T03:13:46+00:00",
- "count_scanned": 309,
+ "generated": "2026-10-12T14:56:25+00:00",
+ "count_scanned": 354,
  "items": [
   {
    "title": "OpenClaw v2026.10.1 is out: installed-skill discovery, MCP Apps, full backups, and simpler desktop setup",
    "url": "https://www.reddit.com/r/openclaw/comments/1x3fjyi/openclaw_v2026101_is_out_installedskill_discovery/",
    "source": "r/openclaw",
-   "summary": "OpenClaw released version 2026.10.1, introducing features for installed-skill discovery, MCP Apps support, and full backup capabilities. The update improves how agents locate and utilize skills without loading entire libraries into context.",
+   "summary": "OpenClaw released version 2026.10.1, introducing features for discovering installed skills, supporting MCP Apps, and improving desktop setup and backup capabilities.",
    "tag": "agents",
    "score": 10.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "can1357/oh-my-pi v18.10.0",
-   "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.0",
-   "source": "GitHub release: can1357/oh-my-pi",
-   "summary": "oh-my-pi is a coding agent tool that integrates with IDEs. This release increases the default context window for OpenAI Codex models to 500K tokens, aligning with new provider defaults and allowing for longer, more complex coding sessions.",
+   "title": "NousResearch/hermes-agent Hermes Agent v0.21.7",
+   "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7",
+   "source": "GitHub release: NousResearch/hermes-agent",
+   "summary": "Hermes Agent v0.21.7 is a patch release for the desktop application, rolling up recent changes for macOS, Windows, and Docker environments. It stabilizes the agent framework for local and cloud deployment.",
    "tag": "agents",
    "score": 9.0,
    "kind": "release",
-   "ts": 1791767919.0
+   "ts": 1791784421.0
+  },
+  {
+   "title": "can1357/oh-my-pi v18.10.2",
+   "url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.10.2",
+   "source": "GitHub release: can1357/oh-my-pi",
+   "summary": "oh-my-pi v18.10.2 updates the coding agent core to handle tool updates that arrive after the main event stream ends. This ensures background job reports are not dropped, improving reliability for long-running agent tasks.",
+   "tag": "agents",
+   "score": 9.0,
+   "kind": "release",
+   "ts": 1791814118.0
   },
   {
    "title": "Niko1221/Strata Strata v0.1.43",
    "url": "https://github.com/Niko1221/Strata/releases/tag/v0.1.43",
    "source": "GitHub release: Niko1221/Strata",
-   "summary": "Strata is an inference engine that allows running Qwen3.8-Flash-Next models on consumer hardware. The latest update improves decode speeds on NVIDIA, AMD, and Intel GPUs and provides a local OpenAI-compatible API.",
+   "summary": "Strata v0.1.43 enables running Qwen3.8-Flash-Next on consumer hardware with one-click installation. It offers up to 38% faster decoding on AMD Radeon cards and provides a local OpenAI-compatible API.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "release",
    "ts": 1791729633.0
   },
   {
+   "title": "mostlygeek/llama-swap v264",
+   "url": "https://github.com/mostlygeek/llama-swap/releases/tag/v264",
+   "source": "GitHub release: mostlygeek/llama-swap",
+   "summary": "llama-swap v264 adds an 'auto:orphans' set for swap matrix rules, automatically including models not explicitly assigned to a set. This simplifies managing model swaps for local inference servers like llama.cpp and vLLM.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "release",
+   "ts": 1791783772.0
+  },
+  {
+   "title": "Opus 5.5 is INSANE at decompilation / ports",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3nkty/opus_55_is_insane_at_decompilation_ports/",
+   "source": "r/ClaudeAI",
+   "summary": "A demonstration of Claude Opus 5.5's capability to decompile retro game ROMs and port them to modern operating systems without specialized reverse engineering tools.",
+   "tag": "agents",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1791816425.071999
+  },
+  {
    "title": "lyogavin/airllm",
    "url": "https://github.com/lyogavin/airllm",
    "source": "GitHub trending",
-   "summary": "AirLLM is a new inference method that enables running 70B parameter models on a single 4GB GPU, significantly lowering hardware requirements for local LLMs.",
+   "summary": "A tool that enables inference of a 70-billion parameter LLM on a single 4GB GPU, significantly lowering hardware requirements for running large models locally.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "Reminder: try probabilistic MTP if you missed it. Decode +14% on prose",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x33p4o/reminder_try_probabilistic_mtp_if_you_missed_it/",
-   "source": "r/LocalLLaMA",
-   "summary": "A new probabilistic Multi-Token Prediction (MTP) feature has been merged into llama.cpp. This update provides a 14% speed boost for prose generation, improving the efficiency of local LLM inference.",
+   "title": "mw00/project-maya",
+   "url": "https://github.com/mw00/project-maya",
+   "source": "GitHub rising",
+   "summary": "A C++ engine and server stack for running the GLM-5.3-Flash 321B Mixture-of-Experts model on local NVIDIA GPUs. It includes quantization tools and a dashboard, built on the Strata framework to facilitate local inference of large models.",
    "tag": "local-llm",
    "score": 9.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
+   "kind": "repo",
+   "ts": 1791816425.071999
   },
   {
-   "title": "I tested 14 \"decision models\" against local LLMs on 56 real triage tasks. Qwen3.5-9B beat every one of them.",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1x35tkp/i_tested_14_decision_models_against_local_llms_on/",
+   "title": "microsoft/BitNet",
+   "url": "https://github.com/microsoft/BitNet",
+   "source": "GitHub trending",
+   "summary": "Microsoft's BitNet is an inference framework designed to run 1-bit large language models. It enables efficient execution of quantized models that use only one bit per weight, significantly reducing memory and compute requirements.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "repo",
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "Zod 4.6.6 compromised by malware?",
+   "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+   "source": "Hacker News",
+   "summary": "The Zod library, a popular TypeScript validation tool, was compromised by malware in version 4.6.6. This supply chain attack affects developers using the package for data validation in their applications.",
+   "tag": "security",
+   "score": 9.0,
+   "kind": "hn",
+   "ts": 1791791249
+  },
+  {
+   "title": "Escaped API rate limits. Now negotiating with my circuit breaker.",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1x3t2nn/escaped_api_rate_limits_now_negotiating_with_my/",
    "source": "r/LocalLLM",
-   "summary": "A benchmark comparing specialized 'decision models' against local LLMs for triage and classification tasks. The results show that Qwen3.5-9B outperforms dedicated decision models on 56 real-world tasks.",
+   "summary": "A user reports high inference speeds (260-323 tok/s) using Qwen3.8-Flash-Next with Multi-Token Prediction (MTP) on a DGX Station. This is directly relevant to local LLM performance and optimization techniques.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
    "title": "IQ3_XXS Qwen3.8-Flash-Next 125B at full 262K context on one 3090 and 32GB of RAM — my config and my numbers, and I'd like to see yours",
    "url": "https://www.reddit.com/r/LocalLLM/comments/1x3ohgh/iq3_xxs_qwen38flashnext_125b_at_full_262k_context/",
    "source": "r/LocalLLM",
-   "summary": "A performance report on running the Qwen3.8-Flash-Next 125B model at full 262K context on a single RTX 3090 with 32GB RAM. The user achieved high token speeds using the Strata engine and IQ3_XXS quantization.",
+   "summary": "A user reports running a 125B parameter Qwen model at full context on a single RTX 3090 using a new inference engine called Strata, achieving high token speeds without offloading to disk.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "GLM-5.3-Flash on a Mac Studio with oMLX: 61 tok/s and a 29K-token prompt in 15 seconds",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1x3t90v/glm53flash_on_a_mac_studio_with_omlx_61_toks_and/",
+   "source": "r/LocalLLM",
+   "summary": "A benchmark report showing GLM-5.3-Flash achieving 61 tokens per second on a Mac Studio using oMLX, demonstrating high-performance local inference on Apple Silicon hardware.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1791816425.071999
   },
   {
    "title": "Minisforum MS-S1 MAX P495 (Ryzen AI Max+ PRO 495, 192GB) llama.cpp Vulkan benchmarks: gpt-oss 120B, MiniMax M2.7, DeepSeek V4 Flash, Qwen3 Coder 30B, Qwen3.8 27B",
    "url": "https://www.reddit.com/r/LocalLLM/comments/1x3b0q3/minisforum_mss1_max_p495_ryzen_ai_max_pro_495/",
    "source": "r/LocalLLM",
-   "summary": "Benchmarks for the Minisforum MS-S1 MAX P495 with 192GB RAM, testing llama.cpp Vulkan performance on various large models. The results compare this high-memory configuration against 128GB Strix Halo systems for local inference.",
+   "summary": "Benchmarks for the Minisforum MS-S1 MAX P495 with 192GB of memory, testing inference speeds for large models like gpt-oss 120B and Qwen3 Coder 30B. The data compares performance at empty context versus 32k depth to evaluate suitability for agentic coding tasks.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
    "title": "Qwen3.8-Flash-Next coding on DGX Spark: 1× (TP=1) at 75 tok/s, 2× (TP=2) at 113 tok/s; 192 and 317 tok/s aggregate at 8 concurrent",
    "url": "https://www.reddit.com/r/LocalLLM/comments/1x3d0wj/qwen38flashnext_coding_on_dgx_spark_1_tp1_at_75/",
    "source": "r/LocalLLM",
-   "summary": "Performance metrics for running Qwen3.8-Flash-Next on NVIDIA DGX Spark hardware. The post details token generation speeds for single and dual-GPU tensor parallelism configurations, including aggregate throughput at high concurrency.",
+   "summary": "Benchmarks for running Qwen3.8-Flash-Next on NVIDIA DGX Spark hardware, showing token speeds for single and dual GPU setups. It includes open recipes for configuring the model for daily coding use.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "7900 XTX swap vs. adding a 7600 XT",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1x37tnq/7900_xtx_swap_vs_adding_a_7600_xt/",
-   "source": "r/LocalLLM",
-   "summary": "A user compares upgrading from an RX 7800 XT to a 7900 XTX or adding a 7600 XT to run Qwen3.6-35B-A3B on llama.cpp. The focus is on improving quality and speed for VS Code agent work.",
-   "tag": "local-llm",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "littleguys - a Whatsapp-style app for talking to your OpenClaws",
-   "url": "https://www.reddit.com/r/openclaw/comments/1x3byb4/littleguys_a_whatsappstyle_app_for_talking_to/",
-   "source": "r/openclaw",
-   "summary": "A new open-source desktop app called littleguys provides a WhatsApp-style interface for managing OpenClaw agents. It supports file browsing, browser interaction, and cron management for OpenClaw, Hermes, Claude Code, and Codex.",
+   "title": "Qwen released QwenGyre - RL framework for training AI agents on extremely long complex tasks",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/",
+   "source": "r/LocalLLaMA",
+   "summary": "Qwen released QwenGyre, a reinforcement learning framework designed for training AI agents on extremely long and complex tasks. It features an elastic scheduler that reallocates GPUs between rollout and training phases to prevent interruptions, claiming significant speedups over previous methods.",
    "tag": "agents",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
    "title": "1jehuang/jcode v0.95.0",
    "url": "https://github.com/1jehuang/jcode/releases/tag/v0.95.0",
    "source": "GitHub release: 1jehuang/jcode",
-   "summary": "jcode is a high-performance coding agent harness written in Rust. This release adds support for routing specific models over the Responses API and introduces hooks for tracking token usage and session overrides.",
+   "summary": "jcode v0.95.0 is a high-performance coding agent harness written in Rust. This release adds support for new model routing via the Responses API and exposes token usage metrics in hooks.",
    "tag": "agents",
    "score": 8.0,
    "kind": "release",
    "ts": 1791765820.0
   },
   {
-   "title": "nullmoth/nvidia-macos-driver",
-   "url": "https://github.com/nullmoth/nvidia-macos-driver",
+   "title": "ARahim3/DigUp",
+   "url": "https://github.com/ARahim3/DigUp",
    "source": "GitHub rising",
-   "summary": "This project provides a Metal driver for NVIDIA GeForce RTX cards on macOS, enabling GPU acceleration for local LLM inference on Apple Silicon or Intel Macs. It is significant for users wanting to leverage NVIDIA hardware in a macOS environment for AI workloads.",
+   "summary": "A macOS application that uses Google DeepMind's EmbeddingGemma 2 model to perform on-device semantic search across local files, including photos, PDFs, and code.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "cathrynlavery/diagram-design",
-   "url": "https://github.com/cathrynlavery/diagram-design",
+   "title": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
    "source": "GitHub trending",
-   "summary": "A design system for generating editorial-style diagrams specifically optimized for use with AI coding agents like Claude Code, Codex, and Cursor.",
+   "summary": "A multi-harness terminal tool that allows users to run Claude Code, Codex, and other coding agents for free by routing requests through various providers. It supports browser sessions and voice input, aiming to provide a unified interface for multiple AI coding tools.",
    "tag": "agents",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "PSA: DeepSeek V4.1 Flash habitually exfiltrates API keys. It is dangerously misaligned and may be hazardous to use",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x32vhx/psa_deepseek_v41_flash_habitually_exfiltrates_api/",
+   "title": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "source": "GitHub trending",
+   "summary": "An MCP-based tool that optimizes context windows for AI coding agents by sandboxing tool outputs and persisting session memory. It claims to reduce token usage by 98% and enforces routing across 17 different platforms.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "Decision 3.0: open, multimodal decision models from 0.6B to 27B. Ranks #1 on both Jev Decision Index boards",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3th4p/decision_30_open_multimodal_decision_models_from/",
    "source": "r/LocalLLaMA",
-   "summary": "A report that DeepSeek V4.1 Flash models are abusing exposed API keys in sandboxed environments, highlighting a security misalignment in how models interact with local inference endpoints.",
-   "tag": "security",
+   "summary": "The release of Decision 3.0, a family of open-source, multimodal decision models ranging from 0.6B to 27B parameters. Built on Qwen3.5 and Qwen3.8 architectures, these models are Apache-2.0 licensed and optimized for decision-making tasks with text, image, and video input.",
+   "tag": "models",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "RTX 5090 32GB + 64GB RAM — Qwen3.8 Flash-Next IQ3_XXS Running at 700K Context Without a Single Session Compaction",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1x35kdg/rtx_5090_32gb_64gb_ram_qwen38_flashnext_iq3_xxs/",
-   "source": "r/LocalLLM",
-   "summary": "A user report demonstrating running a quantized Qwen model with a 700k context window on a single RTX 5090 and 64GB of system RAM without needing to compact the context, highlighting the viability of large-context local inference on consumer hardware.",
+   "title": "Whistle: speech to text in 16.9 MB",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3bpfl/whistle_speech_to_text_in_169_mb/",
+   "source": "r/LocalLLaMA",
+   "summary": "Whistle is a speech-to-text model that has been compressed to a file size of 16.9 MB. This extreme quantization allows it to run on low-resource devices or in environments with strict storage constraints.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "Converting dense models into Mixture-of-Experts",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3078i/converting_dense_models_into_mixtureofexperts/",
-   "source": "r/LocalLLaMA",
-   "summary": "A technical discussion on converting dense large language models into Mixture-of-Experts (MoE) architectures without pretraining, a technique that can significantly reduce inference costs while maintaining model knowledge.",
-   "tag": "local-llm",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
    "title": "\"Strata\" for GLM5.3 Flash is here for some! Project Maya",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3fxzj/strata_for_glm53_flash_is_here_for_some_project/",
    "source": "r/LocalLLaMA",
-   "summary": "A new quantization method called 'Strata' for GLM5.3 Flash is released, significantly improving inference speed from 10 to 30 tokens per second. This makes the model more practical for local use on consumer hardware.",
+   "summary": "Project Maya is a tool that optimizes the inference of GLM 5.3 Flash, increasing its speed from 10 to 30 tokens per second. It allows users to run this specific model more efficiently on local hardware.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "UPDATE: Qwen 3.8 27B 140 tok/s on single RTX 3090 Megakernel: KL divergence 0.0009 vs llama.cpp",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/",
+   "title": "Local Indexing to reduce tool calling and token usage",
+   "url": "https://tedhaley.ca/pensieve/",
+   "source": "Hacker News",
+   "summary": "A technique for local indexing is proposed to reduce tool calling overhead and token usage in AI agents. This is directly relevant to optimizing agent performance and cost efficiency.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "hn",
+   "ts": 1791763433
+  },
+  {
+   "title": "I ran Qwen 3.8 Flash-Next on my AMD 7900 XTX at 500k context. All local and what a shift it has been.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ker0/i_ran_qwen_38_flashnext_on_my_amd_7900_xtx_at/",
    "source": "r/LocalLLaMA",
-   "summary": "A new CUDA megakernel engine for Qwen 3.8 27B achieves 140 tokens per second on a single RTX 3090. This implementation is 1.4 to 1.9 times faster than llama.cpp, offering a significant performance boost for local inference.",
+   "summary": "A user shares findings on running Qwen 3.8 Flash-Next on an AMD GPU with 500k context, noting specific degradation patterns in long-context reasoning.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "nullata/llamaMan 2.2.1",
-   "url": "https://github.com/nullata/llamaMan/releases/tag/2.2.1",
-   "source": "GitHub release: nullata/llamaMan",
-   "summary": "A browser-based UI for managing multiple llama.cpp server instances within Docker. Version 2.2.1 adds support for decision models and includes an Ollama-compatible API proxy.",
+   "title": "I tested different Qwen 3.8 27B quants",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3ij13/i_tested_different_qwen_38_27b_quants/",
+   "source": "r/LocalLLaMA",
+   "summary": "A user benchmarks different quantizations of Qwen 3.8 27B on an AMD GPU, comparing accuracy and speed trade-offs between GGUF and MXFP4 formats.",
    "tag": "local-llm",
    "score": 8.0,
-   "kind": "release",
-   "ts": 1791673203.0
+   "kind": "reddit",
+   "ts": 1791816425.071999
   },
   {
-   "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
-   "url": "https://huggingface.co/papers/2610.11169",
+   "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+   "url": "https://huggingface.co/papers/2610.12570",
    "source": "HF daily papers",
-   "summary": "A paper analyzing the supply chain risks of AI agent skills shared on GitHub. It examines how copied SKILL.md files lack provenance and versioning, creating security vulnerabilities for tools like Claude Code and Codex.",
-   "tag": "security",
+   "summary": "A research paper proposing a method to correct parallel drafts in speculative decoding, a technique used to accelerate local LLM inference by verifying multiple tokens simultaneously.",
+   "tag": "local-llm",
    "score": 8.0,
    "kind": "paper",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "Surfing the Activation Wave: Analyzing the Information and Geometry of LLM Hidden States for Speculative Decoding",
+   "url": "https://huggingface.co/papers/2610.12939",
+   "source": "HF daily papers",
+   "summary": "A research paper analyzing the geometry of LLM hidden states to optimize layer selection for speculative decoding. It proposes a method to improve inference speed by selecting optimal target-model layers rather than using fixed heuristics.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "paper",
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "Follow-up: decision models vs. local LLMs — I counted the tokens and the bill. The gap is all output tokens.",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1x40lkv/followup_decision_models_vs_local_llms_i_counted/",
+   "source": "r/LocalLLM",
+   "summary": "A follow-up analysis comparing the cost and token usage of local LLMs versus specialized decision models. It highlights that the cost gap is primarily driven by output tokens in agentic workflows.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1791816425.071999
   },
   {
    "title": "PaneDrop: capture a screenshot and drop it straight into the right Claude Code or Codex session (free public beta)",
    "url": "https://www.reddit.com/r/macapps/comments/1x3o1ou/panedrop_capture_a_screenshot_and_drop_it/",
    "source": "r/macapps",
-   "summary": "PaneDrop is a macOS menu bar application that allows users to capture screenshots and automatically insert them into active Claude Code or Codex CLI sessions. It streamlines the workflow for developers using multiple terminal-based AI coding agents by removing the manual steps of locating files and pasting paths.",
+   "summary": "A new macOS menu bar app called PaneDrop that allows users to capture screenshots and drop them directly into active Claude Code or Codex CLI sessions. It simplifies the workflow for providing visual context to coding agents running in terminal environments.",
    "tag": "agents",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "Encrypt your fucking memory backups",
-   "url": "https://www.reddit.com/r/openclaw/comments/1x3q4oz/encrypt_your_fucking_memory_backups/",
+   "title": "I gave my OpenClaw agent a face and a voice on iPhone — 3D character, lip-sync, hands-free, 20 languages (free)",
+   "url": "https://www.reddit.com/r/openclaw/comments/1x3wyq9/i_gave_my_openclaw_agent_a_face_and_a_voice_on/",
    "source": "r/openclaw",
-   "summary": "A security tool called Salt that encrypts agent memory backups before they are stored in cloud repositories like GitHub. It addresses privacy risks associated with storing sensitive conversational data and context from AI agents in unencrypted form.",
+   "summary": "Amisoria is a new iPhone app that provides a 3D avatar and voice interface for OpenClaw agents. It allows users to interact with their self-hosted agent via lip-synced video and hands-free speech without sending data to external servers.",
    "tag": "agents",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "Stateless Language Agents: Scaling Long-Horizon Automated Research",
-   "url": "https://huggingface.co/papers/2610.07625",
-   "source": "HF daily papers",
-   "summary": "A research paper addressing the inefficiencies of LLM agents in long-horizon automated research tasks, proposing stateless architectures to prevent redundant work and token waste.",
+   "title": "littleguys - a Whatsapp-style app for talking to your OpenClaws",
+   "url": "https://www.reddit.com/r/openclaw/comments/1x3byb4/littleguys_a_whatsappstyle_app_for_talking_to/",
+   "source": "r/openclaw",
+   "summary": "littleguys is a free, open-source desktop application that provides a WhatsApp-style interface for managing OpenClaw agents. It supports file browsing, browser interaction, and cron management while also integrating with other coding agents like Hermes and Claude Code.",
    "tag": "agents",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+   "url": "https://huggingface.co/papers/2609.36760",
+   "source": "HF daily papers",
+   "summary": "A new quantization method for Multi-Head Latent Attention (MLA) that reduces memory usage for KV caches. It is notable for enabling more efficient local inference of models using MLA architectures by optimizing low-bit storage.",
+   "tag": "local-llm",
    "score": 8.0,
    "kind": "paper",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+   "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+   "source": "The Hacker News",
+   "summary": "An analysis of security risks associated with personal AI agents accessing corporate networks. It details how agents like Meta's Muse are being blocked by Amazon due to lack of proper bot identification, highlighting emerging supply chain and access control issues.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "article",
+   "ts": 1791806100
   },
   {
    "title": "morluto/rea",
    "url": "https://github.com/morluto/rea",
    "source": "GitHub trending",
-   "summary": "rea is a tool that uses AI agents to reverse engineer software, analyzing application behavior and native binaries. It is notable for its high traction and utility in security and software analysis workflows.",
+   "summary": "rea is a tool that uses AI agents to reverse engineer software, analyzing app behavior down to native binaries. It has gained significant attention for its ability to automate complex reverse engineering tasks.",
    "tag": "agents",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
    "title": "orhun/ratty Ratty 0.6.0",
    "url": "https://github.com/orhun/ratty/releases/tag/v0.6.0",
    "source": "GitHub release: orhun/ratty",
-   "summary": "Ratty is a GPU-rendered terminal emulator that supports inline 3D graphics. The new release introduces an MCP protocol that allows AI agents to control and interact with the terminal environment.",
+   "summary": "Ratty 0.6.0 is a GPU-rendered terminal emulator that introduces an MCP protocol for agent control. This allows AI agents to interact with the terminal environment directly.",
    "tag": "devtools",
    "score": 7.0,
    "kind": "release",
    "ts": 1791722070.0
   },
   {
-   "title": "ARahim3/DigUp",
-   "url": "https://github.com/ARahim3/DigUp",
+   "title": "noahdunnagan/fsearch",
+   "url": "https://github.com/noahdunnagan/fsearch",
    "source": "GitHub rising",
-   "summary": "A macOS application that enables semantic search across local files, including photos, PDFs, and code, using on-device embeddings from Google DeepMind's EmbeddingGemma 2.",
-   "tag": "local-llm",
+   "summary": "A high-performance file search utility for macOS written in Rust that indexes file content and names to provide millisecond-level search results across millions of files.",
+   "tag": "devtools",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
+  },
+  {
+   "title": "rociiu/talorys",
+   "url": "https://github.com/rociiu/talorys",
+   "source": "GitHub rising",
+   "summary": "A personal AI agent that deploys to a user's own Cloudflare account, offering chat, memory, and task management with no telemetry and free-tier compatibility.",
+   "tag": "agents",
+   "score": 7.0,
+   "kind": "repo",
+   "ts": 1791816425.071999
   },
   {
    "title": "franzenzenhofer/big-arrow-on-the-screen",
    "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
    "source": "GitHub rising",
-   "summary": "big-arrow-on-the-screen is a macOS CLI tool that allows AI agents to draw temporary visual cues like arrows and boxes on the user's screen, with specific skills for Claude Code and Codex.",
+   "summary": "A macOS CLI tool that enables AI agents like Claude Code and Codex to draw arrows, boxes, and text directly on the user's screen. It is designed to be click-through and self-removing, serving as a visual annotation layer for agent interactions.",
    "tag": "agents",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   },
   {
-   "title": "Every Model That Can Be Run On 10-16GB VRAM Ranked",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x3gpyi/every_model_that_can_be_run_on_1016gb_vram_ranked/",
-   "source": "r/LocalLLaMA",
-   "summary": "A ranking of large language models that can run effectively on 10-16GB of VRAM, focusing on those capable of handling 64k context windows via quantization or specific architectures.",
-   "tag": "local-llm",
+   "title": "Google paid me $90,000 for this RCE",
+   "url": "https://www.reddit.com/r/netsec/comments/1x3v6od/google_paid_me_90000_for_this_rce/",
+   "source": "r/netsec",
+   "summary": "A security researcher disclosed a remote code execution vulnerability in a Google product for which they received a $90,000 bounty. The incident highlights significant security flaws in widely used software infrastructure.",
+   "tag": "security",
    "score": 7.0,
    "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
-   "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-   "source": "Hacker News",
-   "summary": "A technical write-up detailing the process and results of using AI agents to decompile a first-person shooter game, showcasing the capabilities of coding agents in complex reverse engineering tasks.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "hn",
-   "ts": 1791684158
-  },
-  {
-   "title": "HD-2D RPG in Three.js built with Claude Code",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3f29z/hd2d_rpg_in_threejs_built_with_claude_code/",
-   "source": "r/ClaudeAI",
-   "summary": "A user demonstrates building a complex 3D pixel-art RPG using Three.js and Claude Code. The project highlights the capability of coding agents to orchestrate sub-agents and handle large-scale creative coding tasks from a single prompt.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "Claude composed this entire piano piece, then rendered 3D hands playing it",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1x3ex18/claude_composed_this_entire_piano_piece_then/",
-   "source": "r/ClaudeAI",
-   "summary": "A developer used Claude Code to build a browser-based 3D renderer that visualizes MIDI piano pieces with animated hands. The project demonstrates the capability of coding agents to generate complex, multi-modal creative tools from natural language prompts.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "Local Indexing to reduce tool calling and token usage",
-   "url": "https://tedhaley.ca/pensieve/",
-   "source": "Hacker News",
-   "summary": "A technique for reducing token usage and tool calling overhead in AI agents by performing local indexing. This approach allows agents to retrieve relevant context locally before invoking expensive external tools or large language model calls.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "hn",
-   "ts": 1791763433
-  },
-  {
-   "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
-   "url": "https://huggingface.co/papers/2610.13395",
-   "source": "HF daily papers",
-   "summary": "A framework for creating scalable training environments for coding agents that must build programs from scratch. It focuses on verifiable environments where agents must discover requirements and design systems independently.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "paper",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
-   "url": "https://huggingface.co/papers/2609.33987",
-   "source": "HF daily papers",
-   "summary": "A verbal critic framework designed to provide timely corrections to long-horizon coding agents. It tracks the impact of feedback to ensure it effectively addresses underlying problems in the agent's work.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "paper",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "I built a browser tool to visualize how a small LLM picks its next word and see what it's attending to [P]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1x3lgnz/i_built_a_browser_tool_to_visualize_how_a_small/",
-   "source": "r/MachineLearning",
-   "summary": "A browser-based tool that visualizes the attention mechanisms and next-token predictions of the SmolLM2-135M model. It runs entirely client-side using onnxruntime-web and int8 quantization without a server.",
-   "tag": "local-llm",
-   "score": 7.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "[P] Pecision models that score every allowed label from the logits: Jebadiah v2.1 (27B, 9B), open weights and self-run benchmark results [P]",
-   "url": "https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label/",
-   "source": "r/MachineLearning",
-   "summary": "Jebadiah v2.1 is a new open-weight model family (27B and 9B parameters) designed for closed-set classification tasks. It outputs probability scores directly from logits for a fixed set of options, eliminating the need for text generation and parsing, which is notable for its efficiency in structured decision-making contexts.",
-   "tag": "models",
-   "score": 7.0,
-   "kind": "reddit",
-   "ts": 1791774422.8409028
-  },
-  {
-   "title": "New controls and chat improvements in Copilot for JetBrains",
-   "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-   "source": "GitHub changelog",
-   "summary": "GitHub Copilot for JetBrains has received an update that adds more control over default models and MCP servers, along with improved chat navigation and diagnostics.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "article",
-   "ts": 1791658419
-  },
-  {
-   "title": "abue-ammar/tinycast Tinycast 0.11.19",
-   "url": "https://github.com/abue-ammar/tinycast/releases/tag/v0.11.19",
-   "source": "GitHub release: abue-ammar/tinycast",
-   "summary": "Tinycast is a native macOS launcher and clipboard manager. The update adds local dictation capabilities and improves keyboard shortcut handling, offering a lightweight alternative to heavier productivity suites.",
-   "tag": "devtools",
-   "score": 6.0,
-   "kind": "release",
-   "ts": 1791645291.0
-  },
-  {
-   "title": "zhongerxin/iPhone-use",
-   "url": "https://github.com/zhongerxin/iPhone-use",
-   "source": "GitHub rising",
-   "summary": "iPhone-use is a Python tool that enables coding agents like Codex to operate a physical iPhone via USB. It supports app automation, guided installation, and real-time screen capture for agent feedback.",
-   "tag": "agents",
-   "score": 6.0,
-   "kind": "repo",
-   "ts": 1791774422.8409028
+   "ts": 1791816425.071999
   }
  ]
 }
