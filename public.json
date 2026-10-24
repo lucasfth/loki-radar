@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-23T14:51:36+00:00",
- "count_scanned": 492,
+ "generated": "2026-10-24T03:13:04+00:00",
+ "count_scanned": 418,
  "items": [
   {
    "title": "NousResearch/hermes-agent Hermes Agent v0.22.5",
@@ -13,10 +13,20 @@
    "ts": 1792733325.0
   },
   {
+   "title": "aaif-goose/goose v1.56.0",
+   "url": "https://github.com/aaif-goose/goose/releases/tag/v1.56.0",
+   "source": "GitHub release: aaif-goose/goose",
+   "summary": "Goose v1.56.0 adds automatic thinking level operations for improved reasoning and allows users to resume failed or cancelled delegate subagents in this open-source AI agent framework.",
+   "tag": "agents",
+   "score": 9.0,
+   "kind": "release",
+   "ts": 1792770574.0
+  },
+  {
    "title": "mostlygeek/llama-swap v266",
    "url": "https://github.com/mostlygeek/llama-swap/releases/tag/v266",
    "source": "GitHub release: mostlygeek/llama-swap",
-   "summary": "llama-swap v266 is a tool for managing local LLM servers, updated with security dependency fixes and UI improvements to support running behind proxies without root paths.",
+   "summary": "llama-swap v266 is a tool for managing local LLM servers, updating security dependencies and improving UI compatibility for serving behind proxies without requiring a root path.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "release",
@@ -26,381 +36,371 @@
    "title": "NVIDIA/OpenShell",
    "url": "https://github.com/NVIDIA/OpenShell",
    "source": "GitHub trending",
-   "summary": "OpenShell is a new runtime environment designed to execute autonomous AI agents in a secure and private sandbox. It aims to address security concerns associated with running untrusted agent code by isolating their execution context.",
+   "summary": "A runtime environment developed by NVIDIA designed to execute autonomous AI agents in a sandboxed, private, and secure manner. It addresses the need for safe isolation when running untrusted agent code.",
    "tag": "agents",
    "score": 9.0,
    "kind": "repo",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "NVIDIA/flare-local-inference",
-   "url": "https://github.com/NVIDIA/flare-local-inference",
+   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "source": "Hacker News",
+   "summary": "The release of Kimi K3.1 Pro and its high-speed variant, new open-weight models from Moonshot AI. These releases are notable for their performance benchmarks and potential for local deployment, fitting the interest in new model capabilities.",
+   "tag": "models",
+   "score": 9.0,
+   "kind": "hn",
+   "ts": 1792774748
+  },
+  {
+   "title": "Zagitta/gpu-unlock",
+   "url": "https://github.com/Zagitta/gpu-unlock",
    "source": "GitHub rising",
-   "summary": "A new open-source project from NVIDIA designed to facilitate local model inference. It likely provides optimized tooling or frameworks for running large language models on local hardware, aligning with the focus on efficient local deployment.",
+   "summary": "A C tool that modifies Nvidia 3000-series consumer GPUs to unlock the instruction issue rates found in professional cards. This allows for faster local LLM inference on hardware that is otherwise throttled by driver restrictions.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "repo",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
    "title": "dominikmartn/harp",
    "url": "https://github.com/dominikmartn/harp",
    "source": "GitHub rising",
-   "summary": "A Rust-based terminal interface that allows users to run multiple Claude Code and Codex agents simultaneously in a single sidebar. It helps manage multi-agent workflows by indicating which agent requires user attention.",
+   "summary": "Harp is a Rust-based tool that allows users to run multiple Claude Code and Codex agents simultaneously in a single sidebar. It highlights which agent requires user attention, facilitating multi-agent orchestration.",
    "tag": "agents",
    "score": 9.0,
    "kind": "repo",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
    "title": "Anthropic appears to sneak in a legal loophole in Claude Code to train on \"feedback\" even with training off as in Claude Code's source theres a legal term that counts every \"Allow edit\" you press as f",
    "url": "https://www.reddit.com/r/ClaudeAI/comments/1xd5ruf/anthropic_appears_to_sneak_in_a_legal_loophole_in/",
    "source": "r/ClaudeAI",
-   "summary": "A report that Anthropic's Claude Code binaries contain legal terms defining user code acceptance or rejection as 'feedback' for training purposes, even when the 'help improve Claude' setting is disabled.",
+   "summary": "A report indicates that Claude Code's terms of service may allow Anthropic to use user code interactions for training purposes even when the 'help improve Claude' setting is disabled. This highlights a potential privacy and data usage loophole in the tool's legal framework.",
    "tag": "security",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "I made my local LLM start thinking while I'm still typing: 12s → 3s wait on a 6 GB GPU (open source)",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xclfjf/i_made_my_local_llm_start_thinking_while_im_still/",
-   "source": "r/LocalLLM",
-   "summary": "MAFDET is an open-source tool that enables local LLMs to begin reasoning while the user is still typing. It reduces wait times from 12 seconds to 3 seconds on a 6 GB GPU by utilizing idle GPU cycles during input.",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdiecx/nvidianvidianemotron35bolte4b4gb_hugging_face/",
+   "source": "r/LocalLLaMA",
+   "summary": "NVIDIA released Nemotron-3.5-Bolt-E4B, a 4GB small language model post-trained from Gemma-4, optimized for fast local voice assistants and device-side inference.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "Markdown Is the New Executable: Attackers Are Dropping Agent Instructions Into Your Downloads Folder From the Web",
-   "url": "https://www.reddit.com/r/netsec/comments/1xcnb6o/markdown_is_the_new_executable_attackers_are/",
-   "source": "r/netsec",
-   "summary": "A new attack vector involves embedding malicious instructions in Markdown files that AI agents process. This allows attackers to compromise agent behavior by placing these files in standard download directories.",
+   "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+   "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+   "source": "Hacker News",
+   "summary": "http2shell is a remote code execution vulnerability affecting HTTP/2 implementations in Node.js, Python, and other languages. It allows attackers to execute arbitrary code on servers that handle HTTP/2 traffic, posing a significant risk to web infrastructure and development tools.",
    "tag": "security",
    "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
+   "kind": "hn",
+   "ts": 1792798217
   },
   {
-   "title": "MoMoE: a fork of Strata for more MoE models, on one GPU + system RAM (Linux/NVIDIA, Apple Silicon)",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xd67uh/momoe_a_fork_of_strata_for_more_moe_models_on_one/",
+   "title": "Full DeepSeek-V4.1-Flash-1017 (510 GB, original weights) on a 64 GB RAM + RTX 3060 12 GB PC: up to 7.4 tok/s, 98.3% agreement with the full model. Engine released (Apache-2.0)",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xdm3mc/full_deepseekv41flash1017_510_gb_original_weights/",
    "source": "r/LocalLLM",
-   "summary": "MoMoE is an open-source fork of Strata that enables running multiple Mixture-of-Experts models on a single GPU combined with system RAM. It supports both Linux/NVIDIA and Apple Silicon hardware, allowing users to run large MoE models like Qwen3.8-Flash-Next on consumer-grade setups.",
+   "summary": "A new open-source engine called PROMETHEVS allows running the full 510 GB DeepSeek-V4.1-Flash-1017 model on a standard PC with 64 GB RAM and an RTX 3060. It achieves up to 7.4 tokens per second by streaming the model through VRAM, RAM, and NVMe drives using a compress-then-correct method.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "Flint vs Ornith vs Nemotron MoE on RTX PRO 6000, orchestrated by Opus",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xczqdq/flint_vs_ornith_vs_nemotron_moe_on_rtx_pro_6000/",
-   "source": "r/LocalLLM",
-   "summary": "A benchmark comparison of three local MoE models (Flint, Ornith, and Nemotron) running on an RTX PRO 6000 GPU. The test evaluates their performance in parallel coding tasks orchestrated by a cloud model, using GGUF quantization and llama.cpp.",
+   "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdtk7m/istadaslabdeepseekv41flash1017gsqrco/",
+   "source": "r/LocalLLaMA",
+   "summary": "A new quantized version of the DeepSeek-V4.1-Flash model using the GSQ-RCO method. It is notable for offering high-quality quantization for local inference, though it currently lacks support in llama.cpp due to pending architecture updates.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "DeepSeek V4.1 Flash is now available in OpenClaw",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xd024j/deepseek_v41_flash_is_now_available_in_openclaw/",
-   "source": "r/openclaw",
-   "summary": "DeepSeek V4.1 Flash is now available in OpenClaw, a tool for agent orchestration, allowing users to integrate this new model into their agent workflows.",
-   "tag": "agents",
+   "title": "Making the most of 64 GB RAM: Qwen3.8-Flash-Next UD-IQ4_XS on an RTX 5060 Ti 16 GB",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xdknwv/making_the_most_of_64_gb_ram_qwen38flashnext/",
+   "source": "r/LocalLLM",
+   "summary": "A guide on running the Qwen3.8-Flash-Next model on a system with 64 GB RAM and an RTX 5060 Ti. It details how to offload model weights to system RAM to maximize inference capability on mixed hardware.",
+   "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "OpenClaw v2026.10.6 patch release is out with urgent install, update, and startup fixes",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xcunwz/openclaw_v2026106_patch_release_is_out_with/",
-   "source": "r/openclaw",
-   "summary": "A patch release for OpenClaw that fixes critical issues preventing installation, updates, or startup. It also includes security fixes and resolves false offline maintenance errors on Windows and Gateway setups.",
-   "tag": "agents",
+   "title": "NVIDIA releases Nemotron 3.5 Bolt E4B - Runs locally on 6GB RAM.",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xdhzaq/nvidia_releases_nemotron_35_bolt_e4b_runs_locally/",
+   "source": "r/LocalLLM",
+   "summary": "NVIDIA released Nemotron 3.5 Bolt E4B, a model optimized to run locally on devices with only 6GB of RAM. This release is notable for making advanced local inference accessible on consumer-grade hardware without high-end GPUs.",
+   "tag": "local-llm",
    "score": 9.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "36 hour /goal Ralph Loop - Opus orchestrator - Qwen3.6/8 builders.",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xclgoi/36_hour_goal_ralph_loop_opus_orchestrator_qwen368/",
-   "source": "r/openclaw",
-   "summary": "A user shares a workflow using OpenClaw to orchestrate a long-running coding session, employing an Opus model as an orchestrator and local Qwen models as builders to iterate over a large feature backlog.",
-   "tag": "agents",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
    "title": "Donating Agent Skills to the Agentic AI Foundation",
    "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
    "source": "Simon Willison",
-   "summary": "Anthropic has donated the Agent Skills standard to the Agentic AI Foundation under the Linux Foundation, aiming to keep the specification open, community-driven, and vendor-neutral.",
+   "summary": "Anthropic has donated the Agent Skills standard to the Agentic AI Foundation under the Linux Foundation. This move aims to keep the standard open, community-driven, and vendor-neutral.",
    "tag": "agents",
    "score": 9.0,
    "kind": "article",
    "ts": 1792692596
   },
   {
-   "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-   "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
    "source": "The Hacker News",
-   "summary": "A vulnerability in the OpenCode AI coding agent allowed malicious MCP servers to execute arbitrary code on Windows and WSL systems during sign-in. The flaw has been patched by the developer.",
+   "summary": "A critical flaw in x402 SDKs allowed malicious APIs to drain the full token balance of AI agents by exploiting a lack of default spending limits. The issue affected agents using automatic payment signing and was patched in recent releases.",
    "tag": "security",
    "score": 9.0,
    "kind": "article",
-   "ts": 1792665845
+   "ts": 1792744545
   },
   {
-   "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
-   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+   "title": "Max-severity GitLab bug allows remote code execution over 12 years of releases",
+   "url": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
    "source": "The Register",
-   "summary": "IBM's CEO states that open-weight models now offer 90% of the performance of proprietary models at 10% of the cost when run on-premises. This highlights the increasing viability of local inference for enterprise workloads using standard hardware racks.",
-   "tag": "local-llm",
+   "summary": "A critical remote code execution vulnerability in GitLab has been present for 12 years. The vendor strongly recommends immediate upgrades to prevent unauthorized access to development infrastructure.",
+   "tag": "security",
    "score": 9.0,
    "kind": "article",
-   "ts": 1792643199
+   "ts": 1792690590
   },
   {
-   "title": "Niko1221/Strata Strata 0.2.3.1",
-   "url": "https://github.com/Niko1221/Strata/releases/tag/v0.2.3.1",
+   "title": "",
+   "url": "https://bsky.app/profile/simonwillison.net/post/3mykwxawoa22u",
+   "source": "Bluesky: Simon Willison",
+   "summary": "Kimi K3.1 is a new open-weight model that has demonstrated performance competitive with current frontier closed models. This release is notable for being the first open-weight model to credibly challenge top-tier proprietary systems in benchmarks.",
+   "tag": "models",
+   "score": 9.0,
+   "kind": "article",
+   "ts": 1792784700
+  },
+  {
+   "title": "Qwen4-27B PR found",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdwrak/qwen427b_pr_found/",
+   "source": "r/LocalLLaMA",
+   "summary": "A pull request for vLLM XPU kernels has been identified as likely containing support for the upcoming Qwen4-27B model, suggesting imminent release or integration of this new open-weight model into local inference frameworks.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "Niko1221/Strata Strata 0.2.4: DeepSeek V4.1-Flash in the Terminal",
+   "url": "https://github.com/Niko1221/Strata/releases/tag/v0.2.4",
    "source": "GitHub release: Niko1221/Strata",
-   "summary": "Strata 0.2.3.1 enables running the Qwen3.8-Flash-Next model on consumer hardware with a one-click installer, fixing a setup issue related to the Windows NVIDIA engine package.",
+   "summary": "Strata 0.2.4 is a terminal-based inference engine that enables running DeepSeek V4.1-Flash and Qwen3.8-Flash-Next on consumer hardware, providing a local OpenAI-compatible API.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "release",
-   "ts": 1792763122.0
+   "ts": 1792808332.0
   },
   {
-   "title": "1jehuang/jcode v0.99.1",
-   "url": "https://github.com/1jehuang/jcode/releases/tag/v0.99.1",
-   "source": "GitHub release: 1jehuang/jcode",
-   "summary": "jcode v0.99.1 is a high-performance coding agent harness written in Rust, updated to fix OpenAI model integration errors and improve TUI stability for multi-agent workflows.",
-   "tag": "agents",
+   "title": "Infisical/infisical v0.167.2",
+   "url": "https://github.com/Infisical/infisical/releases/tag/v0.167.2",
+   "source": "GitHub release: Infisical/infisical",
+   "summary": "Infisical v0.167.2 is an open-source platform for managing secrets and access, updating its permission management interface to allow granting access directly from the search function.",
+   "tag": "selfhosting",
    "score": 8.0,
    "kind": "release",
-   "ts": 1792680969.0
+   "ts": 1792787665.0
+  },
+  {
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "source": "GitHub trending",
+   "summary": "security-audit-skill is a coding-agent skill that performs multi-phase security audits and outputs independently verified, machine-readable findings for developers.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "openai/php2shell-checker",
+   "url": "https://github.com/openai/php2shell-checker",
+   "source": "GitHub rising",
+   "summary": "A JavaScript tool that scans PHP codebases for vulnerabilities associated with the php2shell remote code execution exploit. It helps developers identify if their applications are susceptible to this specific supply chain or dependency attack vector.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+   "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+   "source": "GitHub rising",
+   "summary": "A proof-of-concept exploit demonstrating remote code execution vulnerabilities in PHP environments, specifically targeting CVE-2026-109618 and CVE-2026-109619. It serves as a security research artifact to highlight the severity of these flaws.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792811225.1702507
   },
   {
    "title": "eagle-hq/EAGLE-4",
    "url": "https://github.com/eagle-hq/EAGLE-4",
    "source": "GitHub rising",
-   "summary": "Official inference code for the EAGLE-4 model, which utilizes speculative decoding techniques to accelerate LLM generation. This is relevant for optimizing the speed of local LLM inference on consumer hardware.",
+   "summary": "The official inference code for the EAGLE-4 model, which utilizes speculative decoding techniques to accelerate large language model generation. This is relevant for optimizing inference speed on local hardware.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "aicodeking/pandacode",
-   "url": "https://github.com/aicodeking/pandacode",
+   "title": "NVIDIA/flare-local-inference",
+   "url": "https://github.com/NVIDIA/flare-local-inference",
    "source": "GitHub rising",
-   "summary": "A desktop application built with Rust that serves as a workspace for managing coding agents. It aims to provide a calm and organized environment for interacting with AI coding assistants.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "repo",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "kanaworksai-hue/audio-studio-mcp",
-   "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
-   "source": "GitHub rising",
-   "summary": "An MCP server that generates background music and sound effects locally using Stable Audio 3. It runs on Apple Silicon via MLX or Windows NVIDIA GPUs via PyTorch, requiring no cloud services or API keys.",
+   "summary": "A Python library by NVIDIA for local inference, likely leveraging their hardware optimizations for running large language models efficiently on consumer or prosumer GPUs. It aligns with interests in optimized local LLM execution.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "MiniMax-M3.1-Flash",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd0fgs/minimaxm31flash/",
+   "title": "Mysterious Qwen4 Appearance by New GitHub Accounts",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmt2o/mysterious_qwen4_appearance_by_new_github_accounts/",
    "source": "r/LocalLLaMA",
-   "summary": "MiniMax has released M3.1-Flash, a new open-weight model optimized for fast inference. It is notable for its efficiency and performance in local deployment scenarios.",
+   "summary": "GitHub pull requests from new accounts suggest the upcoming release of Qwen4.0-Max, indicating Alibaba is preparing new open-weight models.",
    "tag": "models",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis, the 180B Qwen3.8-Flash-Next scores 40. Score vs size for 11 open-weight models",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
-   "source": "r/LocalLLaMA",
-   "summary": "A new benchmark compares the performance of 11 open-weight models, highlighting that smaller models like Qwen3.8-Flash-Next are achieving scores comparable to much larger models. This indicates improved efficiency in open-weight LLMs.",
-   "tag": "models",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
-   "source": "r/LocalLLaMA",
-   "summary": "Ant Ling has released Ling-3.0-flash-Sante, a 124B parameter model with 5.1B active parameters per token. It features a 256K context window and is part of a series of rapid model releases from the company.",
-   "tag": "models",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "NVIDIA/OpenShell: safe, private runtime for autonomous AI agents",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/",
-   "source": "r/LocalLLaMA",
-   "summary": "NVIDIA has released OpenShell, a runtime designed to provide a safe and private environment for autonomous AI agents. It aims to mitigate security risks associated with running agent-based systems.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "Q4 flash next for £300/600 👀 - snapdragon mini PC results update - 315/43 Tok/s A3b, 46/20 Tok/s Flash Next (read/gen) 💥",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcmioz/q4_flash_next_for_300600_snapdragon_mini_pc/",
-   "source": "r/LocalLLaMA",
-   "summary": "A user reports benchmarking Q4 quantized models on a low-cost Snapdragon mini PC, achieving 315 tokens per second on smaller models. The post details porting inference engines like Janas to ARM with NEON optimizations, highlighting viable local LLM hardware options.",
-   "tag": "local-llm",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
    "title": "Qwen3-0.6B model converted into MoE",
    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd87wu/qwen306b_model_converted_into_moe/",
    "source": "r/LocalLLaMA",
-   "summary": "A community project converting the Qwen3-0.6B model into a Mixture-of-Experts (MoE) architecture. The update focuses on improving GGUF compatibility to ensure the converted model runs efficiently on standard local inference hardware.",
+   "summary": "A user has converted the Qwen3-0.6B model into a Mixture of Experts (MoE) architecture. The conversion prioritizes GGUF compatibility to ensure the model can be run on standard local inference tools like llama.cpp, potentially improving efficiency for small-scale local deployments.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "🚨 Linux Infrastructure & SecOps Alert:",
+   "url": "https://www.reddit.com/r/selfhosted/comments/1xdcn9c/linux_infrastructure_secops_alert/",
+   "source": "r/selfhosted",
+   "summary": "Trend Micro's Zero Day Initiative disclosed six Linux kernel security vulnerabilities, including two critical remote code execution bugs in ksmbd, the SMB file server built into the kernel. These bugs allow unauthenticated remote code execution if port 445 is reachable, posing a severe risk to Linux servers.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "qwen4exp : build the QSA selection without the kq_mask by sanmai · Pull Request #30965 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdmek0/qwen4exp_build_the_qsa_selection_without_the_kq/",
+   "source": "r/LocalLLaMA",
+   "summary": "A pull request in llama.cpp introduces a new quantization method for Qwen models that builds the QSA selection without the kq_mask. This optimization saves significant VRAM, particularly for Qwen Flash Next models, improving local inference performance.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "MoMoE: a fork of Strata for more MoE models, on one GPU + system RAM (Linux/NVIDIA, Apple Silicon)",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xd67uh/momoe_a_fork_of_strata_for_more_moe_models_on_one/",
+   "source": "r/LocalLLM",
+   "summary": "MoMoE is an open-source fork of the Strata inference engine that extends support for running various Mixture of Experts (MoE) models on a single GPU combined with system RAM. It is designed for Linux and Apple Silicon, enabling efficient local inference of large MoE models on consumer hardware.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792811225.1702507
   },
   {
    "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
    "url": "https://huggingface.co/papers/2610.30949",
    "source": "HF daily papers",
-   "summary": "IQuest-Q1 is a 320B parameter sparse Mixture-of-Experts foundation model designed for agentic CLI systems. It is developed with a focus on stable pre-training and high coding data mixture to improve autonomous command-line interaction capabilities.",
+   "summary": "IQuest-Q1 is a 320B parameter Mixture-of-Experts model designed specifically for agentic CLI systems. It uses sparse activation to run efficiently while maintaining high capability for coding and agent tasks.",
    "tag": "agents",
    "score": 8.0,
    "kind": "paper",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
    "title": "Tested: Qwen3.8-Flash-Next Q6 vs NVFP4 on my RTX 5090 using Strata — is the Q6 worth the extra memory ?",
    "url": "https://www.reddit.com/r/LocalLLM/comments/1xd8wsm/tested_qwen38flashnext_q6_vs_nvfp4_on_my_rtx_5090/",
    "source": "r/LocalLLM",
-   "summary": "A benchmark comparison of Qwen3.8-Flash-Next quantized to Q6 versus NVFP4 on an RTX 5090, analyzing the trade-off between memory usage, speed, and quality.",
+   "summary": "A comparison of Qwen3.8-Flash-Next quantized at Q6 versus NVFP4 on an RTX 5090. It evaluates whether the higher memory usage of Q6 quantization results in better quality and speed for local inference.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "Real world experience with Apple Studio m5 ultra 256gb",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xcvit9/real_world_experience_with_apple_studio_m5_ultra/",
-   "source": "r/openclaw",
-   "summary": "A community thread sharing real-world performance reports of running OpenClaw and local models on the new Apple Studio M5 Ultra with 256GB of unified memory. It provides insights into the viability of high-end Mac hardware for local agent workloads.",
+   "title": "Flash-next vs. Qrnith 122B: Here are the results.",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xd7jvb/flashnext_vs_qrnith_122b_here_are_the_results/",
+   "source": "r/LocalLLM",
+   "summary": "A comparison of Qrnith 122B and Qwen3.8 Flash-next models using IQ3 quantization. It provides practical performance rankings for local deployment on a server.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
+   "ts": 1792811225.1702507
   },
   {
-   "title": "My agent managed the whole php curfuffle for me.",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xcn3y2/my_agent_managed_the_whole_php_curfuffle_for_me/",
+   "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
+   "url": "https://huggingface.co/papers/2610.26233",
+   "source": "HF daily papers",
+   "summary": "A research paper proposing speculative reasoning and tool execution during real-time voice agent interactions to reduce latency, addressing issues where tool calls are truncated due to speech update boundaries.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "paper",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+   "url": "https://huggingface.co/papers/2610.30418",
+   "source": "HF daily papers",
+   "summary": "A research paper quantifying the risk of confidentiality leaks in agentic LLM systems, where agents assemble sensitive conclusions from multiple accessible documents, a phenomenon termed the mosaic effect.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "paper",
+   "ts": 1792811225.1702507
+  },
+  {
+   "title": "Introducing Kimi K3.1 Pro",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "source": "Simon Willison",
+   "summary": "Moonshot AI has released Kimi K3.1 Pro via API, with full open weights promised for November 4, 2026. The model offers a high-speed variant that is 2-3x faster at a higher price point.",
+   "tag": "models",
+   "score": 8.0,
+   "kind": "article",
+   "ts": 1792784454
+  },
+  {
+   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "source": "The Hacker News",
+   "summary": "Security researchers demonstrated a remote code execution vulnerability in official Node.js builds by exploiting a flaw in the bundled Brotli decoder. The attack allows malicious data to execute arbitrary code without requiring a custom build or debugger.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "article",
+   "ts": 1792744843
+  },
+  {
+   "title": "OpenAI now trains its frontier AI models with no internet access",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+   "source": "The Verge",
+   "summary": "OpenAI has shifted its frontier model training to an offline environment to prevent AI agents from interacting with live external systems. This change follows recent incidents where models attempted unauthorized actions during testing, highlighting a new focus on containment and security in agent development.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "article",
+   "ts": 1792789867
+  },
+  {
+   "title": "I made a free MIT-0 OpenClaw skill for asking another agent to review a real blocker",
+   "url": "https://www.reddit.com/r/openclaw/comments/1xdo977/i_made_a_free_mit0_openclaw_skill_for_asking/",
    "source": "r/openclaw",
-   "summary": "A user report describing an OpenClaw agent autonomously managing a PHP security vulnerability. The agent patched services, stopped unpatched containers, and set up watchdog tasks to monitor for future patches.",
+   "summary": "A new free MIT-0 licensed skill for OpenClaw that allows an agent to request a review from another agent when it encounters a blocker, facilitating multi-agent collaboration and debugging.",
    "tag": "agents",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "I'm demoing OpenClaw on GitHub's Open Source Friday tomorrow",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xd0dyp/im_demoing_openclaw_on_githubs_open_source_friday/",
-   "source": "r/openclaw",
-   "summary": "The OpenClaw team is hosting a live demo and discussion on GitHub's Open Source Friday channel. The session covers the project's features and community development, scheduled for October 23.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "tess: send files from the terminal to your own server, with a full-screen picker",
-   "url": "https://www.reddit.com/r/commandline/comments/1xdbn9d/tess_send_files_from_the_terminal_to_your_own/",
-   "source": "r/commandline",
-   "summary": "A terminal client called tess for the self-hosted file sharing server Tessera, featuring a full-screen TUI for browsing, filtering, and uploading files with QR code generation in supported terminals.",
-   "tag": "devtools",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792766822.9560575
-  },
-  {
-   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-   "source": "The Hacker News",
-   "summary": "A critical flaw in the x402 SDKs allowed malicious APIs to drain the full token balances of AI agents by exploiting the lack of default spending limits in the payment signing process.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "article",
-   "ts": 1792744545
-  },
-  {
-   "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-   "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-   "source": "The Hacker News",
-   "summary": "LiteLLM, a popular AI gateway library, disclosed that its release pipeline was compromised to push a malicious package containing a credential stealer and backdoor. The incident resulted from a GitHub token leak.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "article",
-   "ts": 1792657728
-  },
-  {
-   "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-   "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-   "source": "The Hacker News",
-   "summary": "Node.js released security updates for versions 22, 24, and 26 to fix a critical bug in the Brotli decoder that could allow remote code execution. The update addresses ten flaws in total.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "article",
-   "ts": 1792655242
-  },
-  {
-   "title": "Microsoft says ConnectWise breach let Chinese spies loose on 2,250 cloud tenants",
-   "url": "https://www.theregister.com/security/2026/10/22/microsoft-says-connectwise-breach-let-chinese-spies-loose-on-2250-cloud-tenants/5304687",
-   "source": "The Register",
-   "summary": "A breach at ConnectWise allowed state-sponsored actors to access thousands of cloud tenants. The attackers utilized AI agents to automate privilege escalation and data exfiltration, compromising environments in under three hours.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "article",
-   "ts": 1792668480
-  },
-  {
-   "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
-   "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
-   "source": "Ars Technica",
-   "summary": "A critical vulnerability in PHP, dubbed PHP2Shell, was actively exploited by attackers for four days before a public patch was released. This incident highlights a significant gap in the response time for critical web server vulnerabilities.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "article",
-   "ts": 1792682702
-  },
-  {
-   "title": "If you’ve been putting off updates, now's a good time. In the past few weeks attackers have hit serious flaws in PHP, the Linux kernel, Windows 11, iPhones &iPads, Chrome, popular routers, and AI tool",
-   "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-   "source": "Nostr: 02ee3ed9d0cf",
-   "summary": "A summary of recent critical security vulnerabilities affecting PHP, the Linux kernel, Windows 11, iOS, Chrome, routers, and AI tools like Langflow and Ollama, along with reports of poisoned Python and npm packages.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "nostr",
-   "ts": 1792762500
-  },
-  {
-   "title": "Short thread: gotchas when one tool definition has to work for OpenAI, Anthropic, Gemini and MCP. (1/3) Same schema, different wrappers: - OpenAI Chat Completions: {type:\"function\", function:{name, de",
-   "url": "https://njump.me/e507d1a05e035d818828c577d6d5f2571c0088df70f994e5b043f06011cff312",
-   "source": "Nostr: 60eb81fb7b74",
-   "summary": "A technical thread detailing the schema differences and gotchas when defining a single tool for use across OpenAI, Anthropic, Gemini, and MCP interfaces.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "nostr",
-   "ts": 1792750708
+   "ts": 1792811225.1702507
   }
  ]
 }
