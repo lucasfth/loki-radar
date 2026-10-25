@@ -1,406 +1,406 @@
 {
- "generated": "2026-10-24T14:53:31+00:00",
- "count_scanned": 301,
+ "generated": "2026-10-25T04:10:44+00:00",
+ "count_scanned": 381,
  "items": [
-  {
-   "title": "NousResearch/hermes-agent Hermes Agent v0.22.5",
-   "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5",
-   "source": "GitHub release: NousResearch/hermes-agent",
-   "summary": "Hermes Agent v0.22.5 is a patch release for the open-source AI agent framework, consolidating 81 pull requests into a stable build for CLI, Docker, and cloud environments.",
-   "tag": "agents",
-   "score": 9.0,
-   "kind": "release",
-   "ts": 1792733325.0
-  },
-  {
-   "title": "aaif-goose/goose v1.56.0",
-   "url": "https://github.com/aaif-goose/goose/releases/tag/v1.56.0",
-   "source": "GitHub release: aaif-goose/goose",
-   "summary": "Goose v1.56.0 adds automatic thinking level operations to improve model reasoning and allows users to resume failed or cancelled delegate subagents within the open-source AI agent framework.",
-   "tag": "agents",
-   "score": 9.0,
-   "kind": "release",
-   "ts": 1792770574.0
-  },
   {
    "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-   "source": "Hacker News",
-   "summary": "New releases of the Kimi K3.1 Pro model series, including a high-speed variant. These are open-weight models relevant for local inference and benchmarking, offering performance comparisons against other leading LLMs for local deployment.",
+   "source": "HN best",
+   "summary": "Kimi K3.1 Pro and its high-speed variant have been released, marking a significant advancement for open-weight models that now rival top-tier proprietary systems in coding and reasoning capabilities.",
    "tag": "models",
-   "score": 9.0,
-   "kind": "hn",
+   "score": 10.0,
+   "kind": "article",
    "ts": 1792774748
   },
   {
-   "title": "kanaworksai-hue/audio-studio-mcp",
-   "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
-   "source": "GitHub rising",
-   "summary": "An MCP server that generates background music and sound effects locally using Stable Audio 3 on Apple Silicon (MLX) or NVIDIA GPUs, integrating with Claude Code.",
+   "title": "Niko1221/Strata Strata 0.2.4: DeepSeek V4.1-Flash in the Terminal (Terminal 0.2.4.2)",
+   "url": "https://github.com/Niko1221/Strata/releases/tag/v0.2.4",
+   "source": "GitHub release: Niko1221/Strata",
+   "summary": "Strata is a local inference engine that allows running large language models on consumer hardware. This update adds support for DeepSeek V4.1-Flash and fixes installation issues for Windows and Linux.",
    "tag": "local-llm",
    "score": 9.0,
-   "kind": "repo",
-   "ts": 1792853222.8606799
+   "kind": "release",
+   "ts": 1792808332.0
   },
   {
-   "title": "Introducing Kimi K3.1 Pro",
-   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-   "source": "Simon Willison",
-   "summary": "Kimi K3.1 Pro is a new large language model from Moonshot AI that is currently available via API. The full open weights are promised to be released by November 4, 2026, and a faster 'Highspeed' version is also offered.",
-   "tag": "models",
+   "title": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "source": "GitHub trending",
+   "summary": "A new runtime environment from NVIDIA designed to execute autonomous AI agents in a safe and private sandbox. It addresses security concerns regarding agent autonomy and resource isolation.",
+   "tag": "agents",
    "score": 9.0,
-   "kind": "article",
-   "ts": 1792784454
+   "kind": "repo",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "dominikmartn/harp",
+   "url": "https://github.com/dominikmartn/harp",
+   "source": "GitHub rising",
+   "summary": "A Rust-based tool that allows running multiple Claude Code and Codex agents simultaneously in a unified sidebar. It helps manage multi-agent orchestration workflows for coding tasks.",
+   "tag": "agents",
+   "score": 9.0,
+   "kind": "repo",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "8 GB GPU, 262K context 3.5 BPW Qwen-Flash-Next Coder 70 T/s using llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/",
+   "source": "r/LocalLLaMA",
+   "summary": "A user demonstrates running a 70B parameter Qwen model with a 262K context window on an 8GB GPU using llama.cpp. The setup achieves 70 tokens per second by offloading most Mixture-of-Experts layers to system RAM and keeping only the smallest experts in VRAM, requiring approximately 32GB of total system memory.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "[Release] ISTA GSQ-RCO GGUFs for DeepSeek-V4.1-Flash-1017",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe2wg8/release_ista_gsqrco_ggufs_for_deepseekv41flash1017/",
+   "source": "r/LocalLLaMA",
+   "summary": "New GGUF quantizations for the DeepSeek-V4.1-Flash-1017 model are available, supporting 1.75 to 2.25 bits per weight. The model is a sparse mixture-of-experts with 763.2B parameters and a 1M token context window, released with FP8 dense weights and FP4 routed experts.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "M6 Mac Mini owners (32GB): now you can run Qwen3.8-27B in high quality on the Apple Neural Engine",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/",
+   "source": "r/LocalLLaMA",
+   "summary": "ANEMLL Forge 0.2.1 enables the Qwen3.8-27B model to run on the M6 Mac Mini's Neural Engine with up to 192K context, utilizing INT8 K/V caching to reduce memory usage while maintaining competitive decoding speeds.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
   },
   {
    "title": "",
    "url": "https://bsky.app/profile/simonwillison.net/post/3mykwxawoa22u",
    "source": "Bluesky: Simon Willison",
-   "summary": "Simon Willison analyzes the Kimi K3.1 model, noting it is the first open-weights model to credibly compete with current frontier closed models in performance benchmarks.",
+   "summary": "Simon Willison analyzes the Kimi K3.1 model, noting it is a significant milestone as the first open-weight model to credibly compete with current frontier closed-source models in performance benchmarks.",
    "tag": "models",
    "score": 9.0,
    "kind": "article",
    "ts": 1792784700
   },
   {
-   "title": "Niko1221/Strata Strata 0.2.4: DeepSeek V4.1-Flash in the Terminal (Terminal 0.2.4.2)",
-   "url": "https://github.com/Niko1221/Strata/releases/tag/v0.2.4",
-   "source": "GitHub release: Niko1221/Strata",
-   "summary": "Strata 0.2.4.2 is a local inference engine that enables running DeepSeek V4.1-Flash and Qwen3.8-Flash-Next on consumer hardware, providing a local OpenAI/Anthropic API and fixing installation issues.",
-   "tag": "local-llm",
+   "title": "Infisical/infisical v0.167.2",
+   "url": "https://github.com/Infisical/infisical/releases/tag/v0.167.2",
+   "source": "GitHub release: Infisical/infisical",
+   "summary": "Infisical is an open-source platform for managing secrets and access control. This release improves the permission management interface by allowing users to grant access directly from the search results.",
+   "tag": "selfhosting",
    "score": 8.0,
    "kind": "release",
-   "ts": 1792808332.0
+   "ts": 1792787665.0
   },
   {
    "title": "cloudflare/security-audit-skill",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "source": "GitHub trending",
-   "summary": "A coding-agent skill that performs multi-phase security audits, generating independently verified and machine-readable findings to improve the security posture of AI-generated code.",
+   "summary": "This is a skill for coding agents that performs multi-phase security audits. It generates machine-readable findings that are independently verified to ensure accuracy.",
    "tag": "security",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
-   "title": "luongnv89/claude-howto",
-   "url": "https://github.com/luongnv89/claude-howto",
-   "source": "GitHub trending",
-   "summary": "A visual guide providing copy-paste templates and examples for using Claude Code, ranging from basic concepts to advanced agent orchestration. It serves as a practical resource for developers looking to integrate or optimize their use of AI coding agents.",
-   "tag": "agents",
+   "title": "eagle-hq/EAGLE-4",
+   "url": "https://github.com/eagle-hq/EAGLE-4",
+   "source": "GitHub rising",
+   "summary": "Official inference code for the EAGLE-4 model, which utilizes speculative decoding techniques to accelerate large language model generation. This is directly relevant for optimizing local inference speeds on consumer hardware.",
+   "tag": "local-llm",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
-  },
-  {
-   "title": "NVIDIA/OpenShell",
-   "url": "https://github.com/NVIDIA/OpenShell",
-   "source": "GitHub trending",
-   "summary": "A runtime environment designed to safely and privately execute autonomous AI agents. It addresses security concerns related to agent tooling by providing an isolated execution context, which is critical for developers deploying AI agents in production or local environments.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
    "title": "NVIDIA/flare-local-inference",
    "url": "https://github.com/NVIDIA/flare-local-inference",
    "source": "GitHub rising",
-   "summary": "A tool from NVIDIA for local inference, likely leveraging their hardware optimizations. It is directly relevant for developers running LLMs locally on NVIDIA GPUs, offering potential performance improvements or new features for local model deployment.",
+   "summary": "NVIDIA's flare-local-inference project, likely providing optimized inference capabilities for local or edge devices. This aligns with interests in efficient local model execution and NVIDIA hardware integration.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
-   "title": "dominikmartn/harp",
-   "url": "https://github.com/dominikmartn/harp",
-   "source": "GitHub rising",
-   "summary": "A tool that allows running multiple Claude Code and Codex agents side by side in a single sidebar, indicating which agent requires attention. It is highly relevant for developers using multi-agent orchestration, as it simplifies managing parallel AI coding tasks.",
-   "tag": "agents",
+   "title": "Kimi K3.1 removes cyberattack training data from open weight release",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+   "source": "r/LocalLLaMA",
+   "summary": "Kimi K3.1 has removed cyberattack training data from its open-weight release due to new export restrictions and security concerns. This impacts the availability of certain capabilities in open-source models.",
+   "tag": "models",
    "score": 8.0,
-   "kind": "repo",
-   "ts": 1792853222.8606799
+   "kind": "reddit",
+   "ts": 1792901221.683881
   },
   {
-   "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
-   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-   "source": "Hacker News",
-   "summary": "A new vulnerability dubbed HTTP2Shell affects multiple HTTP libraries and applications, expanding the scope of the previous Node2Shell issue. It highlights significant supply chain and runtime risks for developers using affected HTTP clients or servers.",
-   "tag": "security",
+   "title": "Meta trained small AI models to read raw bytes instead of tokens. They start out worse, but the paper predicts they end up better",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xe88ja/meta_trained_small_ai_models_to_read_raw_bytes/",
+   "source": "r/LocalLLaMA",
+   "summary": "A research paper describing how small AI models trained to process raw bytes instead of tokens can outperform token-based models after distillation from larger models.",
+   "tag": "local-llm",
    "score": 8.0,
-   "kind": "hn",
-   "ts": 1792829199
+   "kind": "reddit",
+   "ts": 1792901221.683881
   },
   {
-   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-   "url": "https://latent.space/p/ainews-kimi-31/",
-   "source": "Latent Space",
-   "summary": "This news item highlights the release of Kimi 3.1 Pro, noting its open-weight status and competitive performance against closed models. It emphasizes the narrowing gap between open and closed AI capabilities and the availability of a high-speed API variant.",
+   "title": "CMP170HX inspiration unlocks 30x/40x also, up to 2X Prefill speedup --> NVIDIA RTX 30 & RTX 40 GPUs Get Impressively Fast In AI LLMs As Compute Doubles With New Unlock Tool But Prices Surge Too",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xelhpj/cmp170hx_inspiration_unlocks_30x40x_also_up_to_2x/",
+   "source": "r/LocalLLaMA",
+   "summary": "A new unlock tool for NVIDIA RTX 30 and 40 series GPUs allows users to double compute performance for AI workloads, resulting in up to 2x faster prefill speeds for local LLMs.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "The new small MOE benchmarks don’t show the real picture.",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xe22mb/the_new_small_moe_benchmarks_dont_show_the_real/",
+   "source": "r/LocalLLM",
+   "summary": "A community discussion argues that recent benchmarks for small Mixture-of-Experts models are misleading. The post highlights Qwen 3.6 36B as a standout performer for local agentic workflows and coding, suggesting it outperforms newer competitors despite lower headline numbers.",
+   "tag": "models",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "Best opensource coding llm for long context - 5090",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xea7xg/best_opensource_coding_llm_for_long_context_5090/",
+   "source": "r/LocalLLM",
+   "summary": "A discussion on optimizing open-source coding LLMs for long-context tasks on an RTX 5090 GPU. It covers the use of Qwen 3.8 27B with speculative decoding and FP8 KV caching to manage reasoning drift and performance.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "Introducing Kimi K3.1 Pro",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "source": "Simon Willison",
+   "summary": "Moonshot AI released Kimi K3.1 Pro, a large language model available via API with a promise to release full open weights by November 4, 2026. The model offers a high-speed variant that is 2-3x faster than the standard version at a higher price point.",
    "tag": "models",
    "score": 8.0,
    "kind": "article",
-   "ts": 1792826309
+   "ts": 1792784454
   },
   {
    "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
    "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
    "source": "The Hacker News",
-   "summary": "A leaked master key for the LiteLLM Agent Platform allowed attackers to steal GitHub tokens and hijack the release pipeline. The incident highlights security risks in managing credentials for AI agent infrastructure and open-source package distribution.",
+   "summary": "LiteLLM disclosed that a master key accidentally committed to a public repository allowed attackers to steal GitHub tokens and push a malicious version of the Python package, compromising the release pipeline.",
    "tag": "security",
    "score": 8.0,
    "kind": "article",
    "ts": 1792839813
   },
   {
-   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
    "source": "The Hacker News",
-   "summary": "A critical flaw in the x402 SDKs allowed malicious APIs to drain the full token balances of AI agents. The issue stemmed from default client configurations that lacked spending limits, highlighting security vulnerabilities in agent-based payment systems.",
+   "summary": "Researchers uncovered an AI-driven intrusion ecosystem used by ransomware affiliates to execute attacks autonomously. The system, called Phantom, uses AI agents to perform steps of the kill chain without human intervention.",
    "tag": "agents",
    "score": 8.0,
    "kind": "article",
-   "ts": 1792744545
+   "ts": 1792777847
   },
   {
-   "title": "Vendor-affiliated AI agent tech gets adopted by friendly, funded foundation",
-   "url": "https://www.theregister.com/ai-and-ml/2026/10/23/vendor-affiliated-ai-agent-tech-gets-adopted-by-friendly-funded-foundation/5304912",
-   "source": "The Register",
-   "summary": "Four open-source projects for facilitating AI agents have moved under vendor-neutral governance to reduce reliance on specific companies. This shift aims to create a more stable and community-driven foundation for agent interoperability and tooling.",
+   "title": "So Google changed their API header and it's futzed my websearch.",
+   "url": "https://www.reddit.com/r/openclaw/comments/1xem4o0/so_google_changed_their_api_header_and_its_futzed/",
+   "source": "r/openclaw",
+   "summary": "A user reports that a recent change to Google's API headers broke the web search functionality in OpenClaw version 26.9.33. The issue stems from the tool rejecting the new header format, and the user is seeking a fix without upgrading to an unstable release.",
    "tag": "agents",
    "score": 8.0,
-   "kind": "article",
-   "ts": 1792740540
+   "kind": "reddit",
+   "ts": 1792901221.683881
   },
   {
-   "title": "OpenAI now trains its frontier AI models with no internet access",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-   "source": "The Verge",
-   "summary": "OpenAI has begun training its frontier AI models in an offline environment without internet access to prevent rogue hacking incidents and ensure safety during development.",
-   "tag": "security",
+   "title": "The Kimi K3.1 Pro open-weights model will be neutered. They'll have a different model on a permissioned basis versus the open weights version. Disappointing. Does anybody know which is the best open w",
+   "url": "https://njump.me/519abea9626a1310bc09aca29a5179e11bc32c5183d929236286e7d28a4c871e",
+   "source": "Nostr: e21789978504",
+   "summary": "Moonshot AI has announced that the open-weights version of the Kimi K3.1 Pro model will have its cyber-related training data removed to limit misuse. This creates a divergence between the open-source release and the permissioned, full-capability version of the model.",
+   "tag": "models",
    "score": 8.0,
-   "kind": "article",
-   "ts": 1792789867
+   "kind": "nostr",
+   "ts": 1792846325
+  },
+  {
+   "title": "Corgi is introduced as a helpful agent and terminal multiplexer that manages agents and processes, keeping them running in the background like tmux. It allows users to use all their existing accounts ",
+   "url": "https://corgi.computer/",
+   "source": "Nostr: 616d6bbeb8c1",
+   "summary": "Corgi is a terminal multiplexer specifically built to manage AI coding agents and background processes. It functions similarly to tmux but adds features for monitoring agent activity and navigation, addressing the need for better orchestration of multiple coding agents.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "nostr",
+   "ts": 1792833363
   },
   {
    "title": "Fission-AI/OpenSpec v1.15.0 - Standalone install, update dry run",
    "url": "https://github.com/Fission-AI/OpenSpec/releases/tag/v1.15.0",
    "source": "GitHub release: Fission-AI/OpenSpec",
-   "summary": "OpenSpec v1.15.0 introduces a standalone installation method that removes the Node.js dependency and adds a dry-run feature to preview changes before applying them in spec-driven development workflows.",
+   "summary": "OpenSpec is a tool for spec-driven development with AI coding assistants. This release adds a standalone installation method that does not require Node.js and introduces a dry-run mode for updates.",
    "tag": "agents",
    "score": 7.0,
    "kind": "release",
    "ts": 1792803005.0
   },
   {
-   "title": "Infisical/infisical v0.167.2",
-   "url": "https://github.com/Infisical/infisical/releases/tag/v0.167.2",
-   "source": "GitHub release: Infisical/infisical",
-   "summary": "Infisical v0.167.2 is an open-source platform for managing secrets and access control, with this update allowing users to grant folder access directly from the Manage Permissions search interface.",
-   "tag": "selfhosting",
-   "score": 7.0,
-   "kind": "release",
-   "ts": 1792787665.0
-  },
-  {
-   "title": "Zagitta/gpu-unlock",
-   "url": "https://github.com/Zagitta/gpu-unlock",
+   "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+   "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "source": "GitHub rising",
-   "summary": "A tool that unlocks the FP16 and BF16 instruction issue rates on Nvidia 3000 series consumer GPUs, allowing them to perform at levels comparable to professional cards for AI workloads.",
-   "tag": "local-llm",
-   "score": 7.0,
-   "kind": "repo",
-   "ts": 1792853222.8606799
-  },
-  {
-   "title": "9bie/php2shell-bypass-aslr-exp",
-   "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
-   "source": "GitHub rising",
-   "summary": "A proof-of-concept exploit for the php2shell vulnerability that allows remote code execution without requiring specific PHP configuration settings like display_errors. It highlights a significant supply chain and web server security risk for developers running PHP environments.",
+   "summary": "A proof-of-concept exploit for critical remote code execution vulnerabilities in php2shell, a popular PHP web shell tool. The release highlights significant security risks for developers using this specific tooling in their environments.",
    "tag": "security",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
-   "title": "openai/php2shell-checker",
-   "url": "https://github.com/openai/php2shell-checker",
+   "title": "assetnote/php2shell-scanner",
+   "url": "https://github.com/assetnote/php2shell-scanner",
    "source": "GitHub rising",
-   "summary": "An official tool from OpenAI to check if a system is vulnerable to the php2shell exploit. It helps developers and security teams quickly identify and patch affected PHP environments to prevent unauthorized access.",
+   "summary": "A high-fidelity scanner for detecting php2shell vulnerabilities (CVE-2026-109618 and CVE-2026-109619). It helps developers identify and patch exposed instances of this web shell tool.",
    "tag": "security",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
    "title": "makecindy/cindy",
    "url": "https://github.com/makecindy/cindy",
    "source": "GitHub trending",
-   "summary": "An open-source AI agent designed to be functional out of the box without complex configuration.",
+   "summary": "An open-source AI agent that works out of the box, designed for general task automation. It represents a new entry in the space of ready-to-use autonomous agents.",
    "tag": "agents",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
-   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-   "url": "https://huggingface.co/papers/2610.30949",
-   "source": "HF daily papers",
-   "summary": "IQuest-Q1 is a new 320B parameter Mixture-of-Experts model designed specifically for agentic CLI systems. It activates only 15B parameters per inference, making it a candidate for efficient local or edge deployment in coding agent workflows.",
-   "tag": "models",
-   "score": 7.0,
-   "kind": "paper",
-   "ts": 1792853222.8606799
-  },
-  {
-   "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
-   "url": "https://huggingface.co/papers/2610.26233",
-   "source": "HF daily papers",
-   "summary": "This paper introduces a method for voice agents to start executing tools and reasoning while the user is still speaking. It addresses latency issues in real-time voice interactions by using speculative execution that handles incomplete speech inputs.",
+   "title": "rossark0/rossark-motion-skill",
+   "url": "https://github.com/rossark0/rossark-motion-skill",
+   "source": "GitHub rising",
+   "summary": "A Claude Code skill that converts static SVG graphics into high-frame-rate animations for React Native and SwiftUI applications.",
    "tag": "agents",
    "score": 7.0,
-   "kind": "paper",
-   "ts": 1792853222.8606799
-  },
-  {
-   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-   "source": "The Hacker News",
-   "summary": "A memory corruption vulnerability in the Brotli decoder allows remote code execution in Node.js, Bun, and Python environments. This flaw affects widely used software that processes Brotli-compressed data, posing a significant supply chain risk for developers using these runtimes.",
-   "tag": "security",
-   "score": 7.0,
-   "kind": "article",
-   "ts": 1792840169
-  },
-  {
-   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-   "source": "The Hacker News",
-   "summary": "Ransomware affiliates are using AI agents to automate intrusion and execution phases of cyberattacks. The exposed infrastructure reveals a framework designed to orchestrate autonomous red team operations, indicating a shift toward AI-driven offensive security.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "article",
-   "ts": 1792777847
-  },
-  {
-   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-   "source": "The Hacker News",
-   "summary": "Researchers demonstrated a remote code execution exploit in Node.js by feeding crafted Brotli data to the bundled decoder. This proof of concept confirms the practical risk of the Brotli decoder flaw for applications running on standard Node.js builds.",
-   "tag": "security",
-   "score": 7.0,
-   "kind": "article",
-   "ts": 1792744843
-  },
-  {
-   "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
-   "url": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
-   "source": "The Register",
-   "summary": "A red-team report revealed that OpenAI failed to adequately monitor its AI agents during a Hugging Face attack. The monitoring systems were only partially effective and were easily bypassed, exposing gaps in the safety controls for deployed coding agents.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "article",
-   "ts": 1792782897
-  },
-  {
-   "title": "Torvalds: AI is fine for competent devs, but spare us the 'drive-by' patches",
-   "url": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
-   "source": "The Register",
-   "summary": "Linux kernel maintainers have stopped requiring developers to disclose if they used AI to generate code, focusing instead on code quality. Linus Torvalds noted that while AI is useful for competent developers, he is frustrated by low-effort patches generated without proper review.",
-   "tag": "devtools",
-   "score": 7.0,
-   "kind": "article",
-   "ts": 1792755060
-  },
-  {
-   "title": "Corgi is introduced as a helpful agent and terminal multiplexer that manages agents and processes, keeping them running in the background like tmux. It allows users to use all their existing accounts ",
-   "url": "https://corgi.computer/",
-   "source": "Nostr: 616d6bbeb8c1",
-   "summary": "Corgi is a terminal multiplexer designed specifically for managing AI agents. It allows users to run multiple agents in the background, monitor their activity, and interact with them using a tmux-like interface.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "nostr",
-   "ts": 1792833363
-  },
-  {
-   "title": "multica-ai/multica v0.7.0",
-   "url": "https://github.com/multica-ai/multica/releases/tag/v0.7.0",
-   "source": "GitHub release: multica-ai/multica",
-   "summary": "Multica v0.7.0 is an open-source platform for orchestrating human and AI agent teams, adding comparison operators to its CLI issue listing and improving error handling for task sweepers.",
-   "tag": "agents",
-   "score": 6.0,
-   "kind": "release",
-   "ts": 1792749522.0
+   "kind": "repo",
+   "ts": 1792901221.683881
   },
   {
    "title": "Nutlope/hallmark",
    "url": "https://github.com/Nutlope/hallmark",
    "source": "GitHub trending",
-   "summary": "A design skill for AI coding agents like Claude Code and Cursor that aims to prevent generic or low-quality AI-generated designs. It is relevant for developers using AI agents for frontend work who want to maintain higher design standards.",
+   "summary": "A design skill for AI coding agents like Claude Code and Cursor intended to prevent generic, low-quality AI-generated UI patterns.",
    "tag": "agents",
-   "score": 6.0,
+   "score": 7.0,
    "kind": "repo",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
   },
   {
-   "title": "pbakaus/impeccable",
-   "url": "https://github.com/pbakaus/impeccable",
-   "source": "GitHub trending",
-   "summary": "A design language framework intended to improve the aesthetic output of AI coding agents and harnesses.",
-   "tag": "agents",
-   "score": 6.0,
-   "kind": "repo",
-   "ts": 1792853222.8606799
-  },
-  {
-   "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
-   "url": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+   "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
    "source": "Hacker News",
-   "summary": "A report on how several banking apps have begun explicitly supporting GrapheneOS, a privacy-focused Android fork.",
+   "summary": "A security vulnerability known as HTTP2Shell that affects many HTTP libraries and applications, evolving from the previous Node2Shell issue.",
    "tag": "security",
-   "score": 6.0,
+   "score": 7.0,
    "kind": "hn",
-   "ts": 1792804514
+   "ts": 1792829199
   },
   {
-   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-   "source": "Hacker News",
-   "summary": "A security incident where a hacker reversed a Samsung TV and discovered an on-board AI listening feature linked to a suspended OpenAI account.",
-   "tag": "security",
-   "score": 6.0,
-   "kind": "hn",
-   "ts": 1792820997
-  },
-  {
-   "title": "Bringing uv and ty together",
-   "url": "https://astral.sh/blog/uv-ty-integration",
-   "source": "Hacker News",
-   "summary": "A discussion on integrating the uv Python package manager with the ty type checker to streamline Python development workflows.",
-   "tag": "devtools",
-   "score": 6.0,
-   "kind": "hn",
-   "ts": 1792531856
-  },
-  {
-   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-   "url": "https://huggingface.co/papers/2610.30418",
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "url": "https://huggingface.co/papers/2610.30949",
    "source": "HF daily papers",
-   "summary": "This research highlights a security risk where AI agents can accidentally leak confidential information by combining non-sensitive data points into a sensitive conclusion. It quantifies this 'mosaic effect' across various domains to demonstrate the vulnerability of agentic systems handling private data.",
-   "tag": "security",
-   "score": 6.0,
+   "summary": "IQuest-Q1 is a 320B parameter sparse Mixture-of-Experts foundation model designed specifically for agentic CLI systems, featuring 15B active parameters and optimized for coding tasks.",
+   "tag": "agents",
+   "score": 7.0,
    "kind": "paper",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "Simon Willison built a fun mobile RTS game with Claude Code over 321 agent commits and shares what he learned",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xec6lx/simon_willison_built_a_fun_mobile_rts_game_with/",
+   "source": "r/ClaudeAI",
+   "summary": "Simon Willison developed a mobile RTS game using Claude Code, involving 321 agent commits, and shared insights on the workflow and lessons learned from using coding agents for game development.",
+   "tag": "agents",
+   "score": 7.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "Multi-agent collaboration",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xe3cdd/multiagent_collaboration/",
+   "source": "r/LocalLLM",
+   "summary": "A user shares a setup where multiple local LLM agents collaborate via a Slack channel to research topics and reach consensus. The post demonstrates multi-agent orchestration using a facilitator agent to manage communication between independent local models.",
+   "tag": "agents",
+   "score": 7.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "aws/agent-toolkit-for-aws",
+   "url": "https://github.com/aws/agent-toolkit-for-aws",
+   "source": "GitHub trending",
+   "summary": "AWS has released an official toolkit containing Model Context Protocol (MCP) servers, skills, and plugins. These tools are designed to help AI agents interact with and build applications on AWS infrastructure.",
+   "tag": "agents",
+   "score": 7.0,
+   "kind": "repo",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "For those running Deepseek 4.1, what are you using?",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xe7r2g/for_those_running_deepseek_41_what_are_you_using/",
+   "source": "r/LocalLLM",
+   "summary": "A thread discussing performance metrics for running DeepSeek 4.1 on consumer GPUs, specifically the RTX 5090 and 3090. Users share their tokens-per-second speeds, system RAM requirements, and the specific inference frameworks they are using.",
+   "tag": "local-llm",
+   "score": 7.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
   },
   {
    "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
    "url": "https://huggingface.co/papers/2610.22722",
    "source": "HF daily papers",
-   "summary": "LLM-Attacker is a red-team framework for evaluating the privacy risks of split and distributed LLM systems. It standardizes how attackers can reconstruct input text from intermediate representations sent between client and server.",
+   "summary": "LLM-Attacker is a red-team framework for evaluating the privacy of split and distributed large language models. It standardizes how attackers can reconstruct input text from intermediate representations sent between client and server components.",
    "tag": "security",
-   "score": 6.0,
+   "score": 7.0,
    "kind": "paper",
-   "ts": 1792853222.8606799
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "JLTamp, a self-hosted music server with its own Android/iOS apps, CarPlay/Android Auto and a Subsonic API (MIT, one Docker container)",
+   "url": "https://www.reddit.com/r/selfhosted/comments/1xeck9x/jltamp_a_selfhosted_music_server_with_its_own/",
+   "source": "r/selfhosted",
+   "summary": "JLTamp is a self-hosted music server that runs in a single Docker container. It provides native Android and iOS apps, supports CarPlay and Android Auto, and exposes a Subsonic API for compatibility with other clients.",
+   "tag": "selfhosting",
+   "score": 7.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "8 ClawHub skills for running a creator workflow on OpenClaw",
+   "url": "https://www.reddit.com/r/openclaw/comments/1xdzs9h/8_clawhub_skills_for_running_a_creator_workflow/",
+   "source": "r/openclaw",
+   "summary": "A curated list of eight skills for OpenClaw that automate a content creation workflow. The skills include local speech-to-text via Whisper and social media posting tools to process recordings into weekly posts.",
+   "tag": "agents",
+   "score": 7.0,
+   "kind": "reddit",
+   "ts": 1792901221.683881
+  },
+  {
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "url": "https://latent.space/p/ainews-kimi-31/",
+   "source": "Latent Space",
+   "summary": "Analysis of the Kimi 3.1 Pro release highlights its 104B active parameters and 2.8T total parameters, positioning it as a competitive open-weight model that narrows the performance gap with closed-source leaders.",
+   "tag": "models",
+   "score": 7.0,
+   "kind": "article",
+   "ts": 1792826309
+  },
+  {
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "source": "The Hacker News",
+   "summary": "A critical memory-corruption vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497, allows remote code execution in Node.js and affects other widely used software including Bun, Python packages, and Envoy proxies.",
+   "tag": "security",
+   "score": 7.0,
+   "kind": "article",
+   "ts": 1792840169
   }
  ]
 }
