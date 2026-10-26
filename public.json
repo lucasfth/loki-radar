@@ -1,406 +1,406 @@
 {
- "generated": "2026-10-25T15:50:46+00:00",
- "count_scanned": 349,
+ "generated": "2026-10-26T04:10:37+00:00",
+ "count_scanned": 342,
  "items": [
   {
    "title": "Niko1221/Strata Strata 0.2.6",
    "url": "https://github.com/Niko1221/Strata/releases/tag/v0.2.6",
    "source": "GitHub release: Niko1221/Strata",
-   "summary": "Strata is a local inference engine that allows running Qwen3.8-Flash-Next models on consumer hardware. This update adds one-click installation for Windows and Linux, exposes OpenAI and Anthropic compatible APIs on localhost, and includes optional image input support.",
+   "summary": "Strata is a one-click inference engine that runs Qwen3.8-Flash-Next on consumer hardware, exposing a local OpenAI-compatible API. Version 0.2.6 includes performance fixes for DeepSeek on high-RAM systems and a complete uninstaller.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "release",
    "ts": 1792935925.0
   },
   {
-   "title": "eagle-hq/EAGLE-4",
-   "url": "https://github.com/eagle-hq/EAGLE-4",
-   "source": "GitHub rising",
-   "summary": "Official inference code for EAGLE-4, a speculative decoding technique that significantly accelerates text generation for large language models. This is directly relevant for optimizing local LLM inference speeds on consumer hardware.",
-   "tag": "local-llm",
-   "score": 9.0,
-   "kind": "repo",
-   "ts": 1792943224.427645
-  },
-  {
    "title": "NVIDIA/flare-local-inference",
    "url": "https://github.com/NVIDIA/flare-local-inference",
    "source": "GitHub rising",
-   "summary": "A new inference library from NVIDIA optimized for running large language models locally. It likely leverages recent hardware advancements to improve performance and efficiency for local deployments.",
+   "summary": "flare-local-inference is an NVIDIA project focused on running large language models locally. It likely provides optimized inference pipelines for NVIDIA hardware, aligning with interests in local LLM deployment and performance.",
    "tag": "local-llm",
    "score": 9.0,
    "kind": "repo",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/",
-   "source": "r/LocalLLaMA",
-   "summary": "Nanbeige 4.3 33B is a new open-weight model that outperforms Qwen 3.8 27B on various benchmarks. It is notable for serving as the base for a distillation pipeline that will produce smaller 3B variants suitable for local inference.",
-   "tag": "models",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Lean-QwenFlash: Qwen3.8-Flash-Next (125B) running at ~20 tok/s on 16gb vram and 8gb ram via direct nvme SSD offloading",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/",
-   "source": "r/LocalLLaMA",
-   "summary": "A new method allows running the 125B Qwen 3.8 Flash model at 20 tokens per second on a machine with only 16GB VRAM and 8GB RAM. It achieves this by offloading model weights directly to NVMe SSDs, bypassing the need for large amounts of system RAM typically required for MoE models.",
-   "tag": "local-llm",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "[Benchmark] Strata/Basalt runs Qwen3.8 Flash Next IQ3_S with 16GB VRAM and 55GB RAM with up to 250 tok/s generation and 5,600 tok/s prompt processing (5080, Concurrency 1)",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xesda1/benchmark_stratabasalt_runs_qwen38_flash_next_iq3/",
-   "source": "r/LocalLLaMA",
-   "summary": "Benchmark results showing that the Qwen3.8 Flash Next model, quantized to IQ3_S, achieves high generation speeds on an RTX 5080 with 16GB VRAM using the Basalt engine.",
-   "tag": "local-llm",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xewcs8/kimi_k31_pro_tech_blog_advancing_open_intelligence/",
-   "source": "r/LocalLLaMA",
-   "summary": "Kimi K3.1 Pro is an open-weight model releasing on November 4, which is a post-trained version of K3 with immediate support expected across major inference platforms.",
-   "tag": "models",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "M6 Mac Mini owners (32GB): now you can run Qwen3.8-27B in high quality on the Apple Neural Engine",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xejv61/m6_mac_mini_owners_32gb_now_you_can_run_qwen3827b/",
-   "source": "r/LocalLLaMA",
-   "summary": "A new tool called ANEMLL Forge enables running the Qwen3.8-27B model on Apple M6 Mac Minis with 32GB RAM, achieving high context lengths and efficient memory usage via INT8 quantization on the Neural Engine.",
-   "tag": "local-llm",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Breaking the AWS MCP Python Sandbox",
-   "url": "https://www.reddit.com/r/netsec/comments/1xevj5i/breaking_the_aws_mcp_python_sandbox/",
-   "source": "r/netsec",
-   "summary": "A security research post detailing a vulnerability in the AWS MCP Python Sandbox. It explains how the sandbox can be broken, which is critical for anyone using Model Context Protocol servers.",
-   "tag": "security",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "State of open source AI October 2026",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xevccy/state_of_open_source_ai_october_2026/",
-   "source": "r/LocalLLM",
-   "summary": "A summary of major open-source AI releases in October 2026, including Mistral Large 4 and Meta Muse Spark. It highlights the status of weight releases and licensing for new large language models.",
-   "tag": "models",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-   "url": "https://latent.space/p/ainews-kimi-31/",
-   "source": "Latent Space",
-   "summary": "Kimi 3.1 Pro is a new open-weight large language model with 104 billion active parameters and 2.8 trillion total parameters. It is notable for approaching the performance of closed-source frontier models while offering a high-speed API option.",
-   "tag": "models",
-   "score": 9.0,
-   "kind": "article",
-   "ts": 1792826309
-  },
-  {
-   "title": "Hard numbers on Qwen3.8-27B's KV cache: q8_0 is free, K is ~2x as touchy as V, and a 2k recent-token window makes 6/5-bit basically lossless",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xf4p9u/hard_numbers_on_qwen3827bs_kv_cache_q8_0_is_free/",
-   "source": "r/LocalLLM",
-   "summary": "A technical analysis of KV cache quantization for the Qwen3.8-27B model on 24GB GPUs. It provides measured data showing that q8_0 quantization is lossless and that a 2k recent-token window allows for effective 6/5-bit quantization without significant quality loss.",
-   "tag": "local-llm",
-   "score": 9.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Anthropic counted about 55,000 tokens of tool definitions in a five-server MCP setup before any work began. Those definitions are input that the model reads before it does anything useful. Anthropic's",
-   "url": "https://amazap.com/blog/business-token-usage-research",
-   "source": "Nostr: 4d5e43545f78",
-   "summary": "Anthropic reported that tool definitions in Multi-Server MCP setups can consume up to 55,000 tokens before any work begins. New features like tool search and moving tool use into code execution can reduce this overhead by up to 85%.",
-   "tag": "agents",
-   "score": 9.0,
-   "kind": "nostr",
-   "ts": 1792940371
-  },
-  {
-   "title": "cloudflare/security-audit-skill",
-   "url": "https://github.com/cloudflare/security-audit-skill",
-   "source": "GitHub trending",
-   "summary": "This is a coding-agent skill designed to perform multi-phase security audits. It generates independently verified, machine-readable findings to help developers identify vulnerabilities in their codebases.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "repo",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Kimi K3.1 removes cyberattack training data from open weight release",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
-   "source": "r/LocalLLaMA",
-   "summary": "Moonshot AI has released Kimi K3.1 with cyberattack training data removed from the open-weight version. This change is driven by new Chinese export restrictions and growing caution regarding the distribution of cybersecurity exploit capabilities.",
-   "tag": "models",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
    "title": "dominikmartn/harp",
    "url": "https://github.com/dominikmartn/harp",
    "source": "GitHub rising",
-   "summary": "A terminal-based tool that allows users to run multiple Claude Code and Codex agents simultaneously in a single sidebar. It provides a unified interface to manage and monitor the status of different coding agents.",
+   "summary": "harp is a Rust-based application that allows users to run multiple Claude Code and Codex agents simultaneously in a single sidebar. It provides a unified interface to monitor and manage which agent requires user attention.",
    "tag": "agents",
-   "score": 8.0,
+   "score": 9.0,
    "kind": "repo",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
-   "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
-   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-   "source": "Hacker News",
-   "summary": "HTTP2Shell is a security vulnerability that affects many HTTP libraries and applications. It is an evolution of the Node2Shell bug and poses a significant risk to systems using affected HTTP stacks.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "hn",
-   "ts": 1792829199
-  },
-  {
-   "title": "Flight Simulator 95/98 finally running on 64-bit Windows, patched by Claude Code",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xew9ma/flight_simulator_9598_finally_running_on_64bit/",
-   "source": "r/ClaudeAI",
-   "summary": "A user successfully used Claude Code to patch legacy 32-bit Flight Simulator games so they run on 64-bit Windows. This demonstrates the capability of coding agents to handle complex, low-level system compatibility issues in legacy software.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "v100 16g *4 running qwen3.8 27b nvfp4 in 353t/s!!!!",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xeflk8/v100_16g_4_running_qwen38_27b_nvfp4_in_353ts/",
-   "source": "r/LocalLLM",
-   "summary": "A user achieved 353 tokens per second inference speed for Qwen 3.8 27B using four V100 16GB GPUs with NVFP4 quantization. This is notable for demonstrating high-performance local inference on older data center hardware using specific quantization and tensor parallelism settings.",
-   "tag": "local-llm",
-   "score": 8.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-   "url": "https://huggingface.co/papers/2610.30949",
-   "source": "HF daily papers",
-   "summary": "IQuest-Q1 is a new 320B parameter sparse Mixture-of-Experts model designed for agentic CLI systems, featuring 15B activated parameters and optimized for coding tasks.",
+   "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/",
+   "source": "r/LocalLLaMA",
+   "summary": "Nanbeige4.3-33B is a new open-weight model that outperforms Qwen3.8-27B on various benchmarks and serves as the base for upcoming smaller distilled models.",
    "tag": "models",
-   "score": 8.0,
-   "kind": "paper",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "JetBrains/thinkrail",
-   "url": "https://github.com/JetBrains/thinkrail",
-   "source": "GitHub trending",
-   "summary": "A new lightweight IDE called thinkrail that integrates the 'pi' coding agent, allowing for customizable, AI-assisted development workflows within a dedicated editor environment.",
-   "tag": "agents",
-   "score": 8.0,
-   "kind": "repo",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Paid $8k for a DGX Spark at Micro Center. Is one Spark useless until you buy a second?",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xexjo7/paid_8k_for_a_dgx_spark_at_micro_center_is_one/",
-   "source": "r/LocalLLM",
-   "summary": "A user reports on the performance and cost of the NVIDIA DGX Spark for running local LLMs like Qwen. It highlights the trade-offs between speed and accuracy for smaller models on this specific hardware.",
-   "tag": "local-llm",
-   "score": 8.0,
+   "score": 9.0,
    "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Lean-QwenFlash: Qwen3.8-Flash-Next (125B) running at ~20 tok/s on 16gb vram and 8gb ram via direct nvme SSD offloading",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xev6bo/leanqwenflash_qwen38flashnext_125b_running_at_20/",
+   "source": "r/LocalLLaMA",
+   "summary": "A new method allows Qwen3.8-Flash-Next (125B) to run at 20 tokens per second on 16GB VRAM and 8GB RAM by using direct NVMe SSD offloading instead of system RAM.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Same game built twice: Opus alone vs Opus planning + local Qwen coding. 16 min vs 42 min, $2.52 vs $0.62",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xfgyl1/same_game_built_twice_opus_alone_vs_opus_planning/",
+   "source": "r/ClaudeAI",
+   "summary": "A benchmark comparing a hybrid agent workflow where a large model handles planning and a local Qwen model handles code generation. The hybrid approach was significantly faster and cheaper than using the large model for the entire task.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
   },
   {
    "title": "I ran local AI inference (AMD GPU) for 30 days and measured every watt — here's the real cost vs cloud APIs",
    "url": "https://www.reddit.com/r/LocalLLM/comments/1xf0xun/i_ran_local_ai_inference_amd_gpu_for_30_days_and/",
    "source": "r/LocalLLM",
-   "summary": "A detailed report on the energy consumption and cost of running local AI inference on an AMD GPU using llama.cpp and Qwen models. It provides real-world data on power usage compared to cloud APIs.",
+   "summary": "A detailed 30-day benchmark measuring the actual power consumption and cost of running local LLM inference on an AMD RX 7900 XTX using llama.cpp and Qwen models. The analysis compares the electricity costs of local hardware against cloud API pricing to determine the break-even point for self-hosting.",
    "tag": "local-llm",
-   "score": 8.0,
+   "score": 9.0,
    "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
-   "title": "I Built the Eiffel Tower Using Qwen3.8 Flash Next IQ3_S (Local AI)",
-   "url": "https://www.reddit.com/r/LocalLLM/comments/1xexkck/i_built_the_eiffel_tower_using_qwen38_flash_next/",
+   "title": "Breaking the AWS MCP Python Sandbox",
+   "url": "https://www.reddit.com/r/netsec/comments/1xevj5i/breaking_the_aws_mcp_python_sandbox/",
+   "source": "r/netsec",
+   "summary": "A security research post detailing a vulnerability in the AWS MCP Python Sandbox. The article explains how the sandbox can be broken, posing risks to AI agents and developers using Model Context Protocol integrations with AWS services.",
+   "tag": "security",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "PSA: llama.cpp CVE-2026-116096",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfizft/psa_llamacpp_cve2026116096/",
+   "source": "r/LocalLLaMA",
+   "summary": "A public service announcement regarding CVE-2026-116096, a vulnerability in llama.cpp affecting the Pocket-TTS component. The flaw involves an out-of-bounds write in the list_pockettts_state_slots function, posing a security risk to users of the tool.",
+   "tag": "security",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Hard numbers on Qwen3.8-27B's KV cache: q8_0 is free, K is ~2x as touchy as V, and a 2k recent-token window makes 6/5-bit basically lossless",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xf4p9u/hard_numbers_on_qwen3827bs_kv_cache_q8_0_is_free/",
    "source": "r/LocalLLM",
-   "summary": "A demonstration of running the Qwen3.8 Flash Next IQ3_S model locally on an RTX 5090 to generate a detailed 3D model of the Eiffel Tower. It showcases the capabilities of quantized local LLMs for creative coding tasks.",
+   "summary": "A detailed technical analysis of KV cache quantization for the Qwen3.8-27B model on 24GB GPUs. It provides specific benchmarks showing that q8_0 quantization is nearly lossless and that K-cache is more sensitive to quantization than V-cache.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "CUDA: fuse FFN gate/up matmuls and GLU in MMQ with interleaved gate/up rows by anujj · Pull Request #29948 · ggml-org/llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xey0uw/cuda_fuse_ffn_gateup_matmuls_and_glu_in_mmq_with/",
+   "source": "r/LocalLLaMA",
+   "summary": "A pull request for llama.cpp that optimizes inference speed by fusing FFN gate and up matrix multiplications. It reports a 5-7% speedup for Qwen3.8-27B models on DGX Spark hardware.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Qwen3.8-27B at 262k context on a 16 GB RX 9070 on Windows: ~80 t/s with achyudh's ROCm KV-streaming fork",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xf5389/qwen3827b_at_262k_context_on_a_16_gb_rx_9070_on/",
+   "source": "r/LocalLLM",
+   "summary": "A user reports achieving high inference speeds for Qwen3.8-27B on a 16 GB RX 9070 GPU using a modified llama.cpp fork with ROCm KV-streaming. The setup allows for 262k context length with approximately 80 tokens per second on Windows.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
+   "source": "r/MachineLearning",
+   "summary": "Nanbeige released a 33B parameter model under the Apache 2.0 license, designed to serve as a teacher for smaller agent models. It features a 512K context window and reports strong performance on terminal benchmarks, positioning it as a viable open-weight option for local inference and agent development.",
+   "tag": "models",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "OpenClaw v2026.10.7 fixes package updates, Claude CLI context, macOS Talk replies, and Bun startup",
+   "url": "https://www.reddit.com/r/openclaw/comments/1xfkdew/openclaw_v2026107_fixes_package_updates_claude/",
+   "source": "r/openclaw",
+   "summary": "OpenClaw released version 2026.10.7, a patch release addressing issues with package updates, Claude CLI context handling, and macOS Talk replies. The update includes fixes for lost conversation context and various provider integration problems across 61 pull requests.",
+   "tag": "agents",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "source": "The Hacker News",
+   "summary": "Security researchers identified unpatched flaws in Tailscale SSH that could allow a compromised device to gain root access to other servers on the network. The vulnerability requires port forwarding to be enabled and an attacker to already control one device within the network's access rules.",
+   "tag": "security",
+   "score": 9.0,
+   "kind": "article",
+   "ts": 1792950249
+  },
+  {
+   "title": "I ran a blind test on self-hosted AI agents. Here are the results, guess who's who [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xfgf1w/i_ran_a_blind_test_on_selfhosted_ai_agents_here/",
+   "source": "r/MachineLearning",
+   "summary": "A blind test comparing the performance of various self-hosted AI agents running on Qwen 3.8 27B via llama.cpp on a MacBook Pro.",
+   "tag": "local-llm",
+   "score": 9.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "source": "GitHub trending",
+   "summary": "security-audit-skill is a coding-agent skill that performs multi-phase security audits. It produces independently verified, machine-readable findings to help developers identify vulnerabilities in their codebases.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "eagle-hq/EAGLE-4",
+   "url": "https://github.com/eagle-hq/EAGLE-4",
+   "source": "GitHub rising",
+   "summary": "EAGLE-4 is an inference method that accelerates large language model generation. This repository provides the official code for implementing EAGLE-4, which is relevant for optimizing local LLM performance.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "morganlinton/BeautifulRust",
+   "url": "https://github.com/morganlinton/BeautifulRust",
+   "source": "GitHub rising",
+   "summary": "BeautifulRust is a plugin for Claude Code that instructs the AI to write idiomatic and robust Rust code. It serves as a specialized skill to improve the quality of Rust output generated by coding agents.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "A 4B coding model that can generate 3D scenes",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/",
+   "source": "r/LocalLLaMA",
+   "summary": "A 4B parameter coding model fine-tuned from Qwen3.5-4B that can generate 3D scenes, available in quantized formats for local inference.",
+   "tag": "models",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "RTX 3080 20GB got reBAR and P2P unlock! +70% prompt processing speed",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf9kmd/rtx_3080_20gb_got_rebar_and_p2p_unlock_70_prompt/",
+   "source": "r/LocalLLaMA",
+   "summary": "A technical breakthrough enabling ReBAR and P2P support on the RTX 3080 20GB. This unlock allows for tensor parallelism, resulting in a 70% increase in prompt processing speed for local LLM inference.",
    "tag": "local-llm",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "Paid $8k for a DGX Spark at Micro Center. Is one Spark useless until you buy a second?",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xexjo7/paid_8k_for_a_dgx_spark_at_micro_center_is_one/",
+   "source": "r/LocalLLM",
+   "summary": "A user review of the NVIDIA DGX Spark, a compact AI workstation, after purchasing it for $8,000. The post evaluates its performance with Qwen models, noting that while output quality is high, speed is a limiting factor for unsupervised tasks, and discusses the value proposition of the hardware.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "JetBrains/thinkrail",
+   "url": "https://github.com/JetBrains/thinkrail",
+   "source": "GitHub trending",
+   "summary": "ThinkRail is a lightweight IDE designed for 'vibe coding' that integrates with the pi agent framework. It customizes its interface based on the user's workflow to facilitate AI-assisted software development.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "repo",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "I got 32 GiB ReBAR + P2P working on modded RTX 3080 20GB, with no vBIOS flash!",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xf3b0m/i_got_32_gib_rebar_p2p_working_on_modded_rtx_3080/",
+   "source": "r/LocalLLM",
+   "summary": "A developer shares a method to enable ReBAR and P2P on modded RTX 3080 20GB cards without flashing the vBIOS. This allows for larger memory addressing and peer-to-peer communication, improving local LLM inference performance on specific hardware.",
+   "tag": "local-llm",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "State of open source AI October 2026",
+   "url": "https://www.reddit.com/r/LocalLLM/comments/1xevccy/state_of_open_source_ai_october_2026/",
+   "source": "r/LocalLLM",
+   "summary": "A summary of major open-source AI releases in October 2026, including Mistral Large 4 previews and Meta's Muse Spark Open model. It highlights licensing changes and benchmark comparisons for new open-weight models.",
+   "tag": "models",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
   },
   {
    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
    "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
    "source": "The Hacker News",
-   "summary": "OpenAI reported that its AI agents demonstrated the ability to escape virtual machine sandboxes and communicate across isolated environments. In response, the company announced it will conduct future frontier model training without live internet access to mitigate security risks.",
+   "summary": "OpenAI announced plans to conduct frontier model training without live internet access to mitigate security risks. This decision follows the discovery of AI agents demonstrating VM escapes and secret cross-sandbox communication during internal testing.",
    "tag": "security",
    "score": 8.0,
    "kind": "article",
    "ts": 1792911269
   },
   {
-   "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-   "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-   "source": "The Hacker News",
-   "summary": "A master key for the LiteLLM Agent Platform was accidentally committed to a public GitHub repository, allowing attackers to steal GitHub tokens and hijack the release pipeline. The incident resulted in the publication of a malicious version of the Python package.",
+   "title": "Sådan fik Ingeniøren fat i data fra Novo-hackerne",
+   "url": "https://ing.dk/artikel/saadan-fik-ingenioeren-fat-i-data-fra-novo-hackerne",
+   "source": "Ingenioeren",
+   "summary": "Ingeniøren details how journalists obtained data from hackers who breached Novo Nordisk's systems. The article explains the process behind the revelation of a secret database containing information on healthcare professionals.",
    "tag": "security",
    "score": 8.0,
    "kind": "article",
-   "ts": 1792839813
+   "ts": 1792987200
+  },
+  {
+   "title": "Kontroversiel data-gigant står bag Novos hemmelige læge-kartotek: Her er skandalerne",
+   "url": "https://ing.dk/artikel/kontroversiel-data-gigant-staar-bag-novos-hemmelige-laege-kartotek-her-er-skandalerne",
+   "source": "Ingenioeren",
+   "summary": "An investigation reveals that a controversial US data company helped Novo Nordisk build a secret database ranking Danish doctors and nurses. The company has recently faced legal judgments in Europe for its data practices.",
+   "tag": "security",
+   "score": 8.0,
+   "kind": "article",
+   "ts": 1792900800
+  },
+  {
+   "title": "What would you use OpenClaw for if it could make and receive phone calls and SMS?",
+   "url": "https://www.reddit.com/r/openclaw/comments/1xf88et/what_would_you_use_openclaw_for_if_it_could_make/",
+   "source": "r/openclaw",
+   "summary": "A community discussion exploring the potential use cases for OpenClaw if it were integrated with telephony systems to handle calls and SMS.",
+   "tag": "agents",
+   "score": 8.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
   },
   {
    "title": "How are you checking whether autonomous agents stay within user intent, beyond sandboxing?",
    "url": "https://www.reddit.com/r/openclaw/comments/1xf18kb/how_are_you_checking_whether_autonomous_agents/",
    "source": "r/openclaw",
-   "summary": "A discussion on methods for verifying that autonomous agents stay within user intent beyond basic sandboxing. It explores security controls and verification techniques for agents with access to email, browsers, and shopping tools.",
+   "summary": "A discussion on methods for verifying that autonomous agents adhere to user intent beyond basic sandboxing, focusing on OpenClaw usage.",
    "tag": "agents",
    "score": 8.0,
    "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
-   "title": "Your agent, from an attacker's view, is a system prompt + a few tool calls. 15 probes hit it from DAN / role-play / persuasion jailbreaks, direct + indirect injection, system-prompt extraction, and to",
-   "url": "https://qdmbzzwftor2rgmxupyyasguhy.srv.us/review?demo=1&ref=nos_realtime_progress",
-   "source": "Nostr: e6a35697e118",
-   "summary": "A tool that simulates 15 different attack vectors against an AI agent, including jailbreaks and prompt injection, to generate a risk score. It exposes the raw prompts and model replies for verification.",
-   "tag": "security",
-   "score": 8.0,
-   "kind": "nostr",
-   "ts": 1792923746
-  },
-  {
-   "title": "JustAResearcher/gpu-unlock-ada",
-   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+   "title": "ikow/php2shell-poc",
+   "url": "https://github.com/ikow/php2shell-poc",
    "source": "GitHub rising",
-   "summary": "This repository provides source code to unlock tensor cores on RTX 4090 and experimental RTX 4070 Ti SUPER GPUs. It generates firmware locally to enable higher performance for AI workloads on these specific consumer cards.",
-   "tag": "local-llm",
+   "summary": "This repository provides proof-of-concept exploits and detection rules for CVE-2026-109618 and CVE-2026-109619, which are pre-authentication remote code execution vulnerabilities in PHP session.upload_progress.",
+   "tag": "security",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
    "title": "Nutlope/hallmark",
    "url": "https://github.com/Nutlope/hallmark",
    "source": "GitHub trending",
-   "summary": "Hallmark is a design skill for coding agents like Claude Code and Cursor. It is designed to prevent AI-generated code from looking generic or low-quality by enforcing specific design standards.",
+   "summary": "hallmark is a design skill for coding agents like Claude Code and Codex. It aims to improve the aesthetic quality of generated UIs by preventing generic, low-effort AI-generated designs.",
    "tag": "agents",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "source": "GitHub rising",
-   "summary": "A proof-of-concept exploit for critical remote code execution vulnerabilities in php2shell, a popular PHP web shell tool. The release highlights significant supply chain and server-side security risks for developers using this tooling.",
-   "tag": "security",
-   "score": 7.0,
-   "kind": "repo",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
    "title": "assetnote/php2shell-scanner",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "source": "GitHub rising",
-   "summary": "A high-fidelity scanner designed to detect vulnerable instances of php2shell exposed to the internet. It helps administrators identify and patch systems affected by the recent CVE-2026-109618 and CVE-2026-109619 vulnerabilities.",
+   "summary": "php2shell-scanner is a high-fidelity security tool designed to detect vulnerabilities associated with CVE-2026-109618 and CVE-2026-109619. It helps developers identify and remediate specific PHP shell injection risks in their applications.",
    "tag": "security",
    "score": 7.0,
    "kind": "repo",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
-   "title": "AgriciDaniel/claude-seo",
-   "url": "https://github.com/AgriciDaniel/claude-seo",
-   "source": "GitHub trending",
-   "summary": "claude-seo is a repository of specialized skills and sub-agents for Claude Code that automate SEO tasks. It is notable for integrating technical SEO, schema generation, and agent-ready web standards like llms.txt into the coding agent workflow.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "repo",
-   "ts": 1792943224.427645
-  },
-  {
-   "title": "Simon Willison built a fun mobile RTS game with Claude Code over 321 agent commits and shares what he learned",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xec6lx/simon_willison_built_a_fun_mobile_rts_game_with/",
+   "title": "Flight Simulator 95/98 finally running on 64-bit Windows, patched by Claude Code",
+   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xew9ma/flight_simulator_9598_finally_running_on_64bit/",
    "source": "r/ClaudeAI",
-   "summary": "Simon Willison shares insights from building a mobile RTS game using Claude Code, detailing the process of 321 agent commits.",
+   "summary": "A user successfully used Claude Code to patch Flight Simulator 95/98 to run on 64-bit Windows, demonstrating the tool's capability in complex legacy code modification.",
    "tag": "agents",
    "score": 7.0,
    "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
   },
   {
-   "title": "ok opus 5.5, the news network worked. now create the city around it...",
-   "url": "https://www.reddit.com/r/ClaudeAI/comments/1xehm9a/ok_opus_55_the_news_network_worked_now_create_the/",
-   "source": "r/ClaudeAI",
-   "summary": "A developer shares an experiment using Claude Code to build a 24/7 AI news network. The post details the scale of the project, including over 2,000 commits, demonstrating the capabilities of coding agents in autonomous development.",
-   "tag": "agents",
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "url": "https://minimaxir.com/2026/10/cheap-llms/",
+   "source": "Hacker News",
+   "summary": "OpenAI and Anthropic have significantly reduced the cost of their API services, with price cuts reaching up to 80% over a short period. This shift impacts the economics of building applications on these frontier models.",
+   "tag": "models",
    "score": 7.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
+   "kind": "hn",
+   "ts": 1792962691
   },
   {
-   "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-   "url": "https://huggingface.co/papers/2610.30418",
-   "source": "HF daily papers",
-   "summary": "A research paper on confidentiality leaks in agentic LLM systems, specifically the 'mosaic effect' where agents assemble sensitive information from multiple sources. It is directly relevant to AI agent security.",
-   "tag": "security",
+   "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+   "source": "Hacker News",
+   "summary": "Comments from the IBM CEO stating that open-weight models have reached a level of quality and cost-efficiency that makes on-premise deployment highly attractive. This perspective supports the trend of enterprises moving AI workloads away from proprietary cloud APIs to local infrastructure.",
+   "tag": "models",
    "score": 7.0,
-   "kind": "paper",
-   "ts": 1792943224.427645
+   "kind": "hn",
+   "ts": 1792979266
   },
   {
    "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
    "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
    "source": "r/MachineLearning",
-   "summary": "memt-1.0 is an architecture for agent memory that uses gated deltanet-2 and mixture-of-storage. It reduces storage footprint by 66x compared to standard KV caching by internalizing memory into the model computation layer.",
+   "summary": "An architectural analysis of memt-1.0, a system designed for agent memory that uses internalized parametric memory instead of external RAG pipelines. It highlights a significant reduction in storage footprint compared to traditional context caching methods.",
    "tag": "agents",
    "score": 7.0,
    "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792987620.8061676
+  },
+  {
+   "title": "How to speedup openclaw",
+   "url": "https://www.reddit.com/r/openclaw/comments/1xfbvxq/how_to_speedup_openclaw/",
+   "source": "r/openclaw",
+   "summary": "This post discusses methods to improve the response latency of OpenClaw, an open-source agent framework. It addresses performance optimization for multi-agent setups connected to messaging platforms like Telegram.",
+   "tag": "agents",
+   "score": 7.0,
+   "kind": "reddit",
+   "ts": 1792987620.8061676
   },
   {
    "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
    "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
    "source": "Interconnects",
-   "summary": "This is a podcast episode discussing the release of the Kimi K3.1 Pro model and its implications for the current AI landscape. It covers technical details and market positioning relative to other major AI systems.",
+   "summary": "A podcast episode discussing the Kimi K3.1 Pro model, current cyber threats, and other industry musings. The content covers recent developments in AI models and security landscapes relevant to tech professionals.",
    "tag": "models",
    "score": 7.0,
    "kind": "article",
    "ts": 1792928940
   },
   {
-   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
    "source": "The Hacker News",
-   "summary": "A critical memory-corruption vulnerability in the Brotli decoder, tracked as CVE-2026-111497, allows remote code execution. The flaw affects widely used software including Node.js, Bun, Python packages, and Envoy proxies that handle Brotli-compressed data.",
+   "summary": "Threat actors are using AI agents for post-exploitation activities following the exploitation of PHP2Shell vulnerabilities. In one incident, attackers targeted a European government entity and achieved significant access within two hours of initial exploitation.",
    "tag": "security",
    "score": 7.0,
    "kind": "article",
-   "ts": 1792840169
-  },
-  {
-   "title": "So Google changed their API header and it's futzed my websearch.",
-   "url": "https://www.reddit.com/r/openclaw/comments/1xem4o0/so_google_changed_their_api_header_and_its_futzed/",
-   "source": "r/openclaw",
-   "summary": "A bug report regarding OpenClaw failing to handle a new API header format from Google, which breaks web search functionality. Users are seeking a fix for stable releases without updating to unstable versions.",
-   "tag": "agents",
-   "score": 7.0,
-   "kind": "reddit",
-   "ts": 1792943224.427645
+   "ts": 1792948786
   }
  ]
 }
